@@ -1,0 +1,43 @@
+//
+//  Config-Production.xcconfig
+//  Space-X
+//
+//  Created by mohammad on 5/18/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// ==========================
+// MARK: - Internal Variables
+// ==========================
+FORWARD_SLASH = /
+
+// ==================
+// MARK: - App Config
+// ==================
+PRODUCT_NAME = Space-X
+PRODUCT_DISPLAY_NAME = DEV_$(PRODUCT_NAME)
+PRODUCT_SHORT_VERSION = 1.0.0
+PRODUCT_VERSION = 1
+
+// ====================
+// MARK: - Build Config
+// ====================
+OTHER_SWIFT_FLAGS = '$(inherited)' '-Xfrontend' '-warn-long-function-bodies=200' '-Xfrontend' '-warn-long-expression-type-checking=200'
+DEBUG_INFORMATION_FORMAT = dwarf
+ENABLE_BITCODE = NO
+
+// ============
+// MARK: - URLs
+// ============
+BASE_DOMAIN = https:$(FORWARD_SLASH)/api.spacexdata.com
+BASE_URL = $(BASE_DOMAIN)/v4
+PRIVACY_POLICY_URL = https:$(FORWARD_SLASH)/google.com
+//ITUNES_APP_URL = itms-apps:$(FORWARD_SLASH)/itunes.apple.com/app/1536315424
+
+
+// =========================
+// MARK: - OneSignal Service
+// =========================
+//ONESIGNAL_APP_ID = 527fcee6-861b-4052-ba21-2fb815229164
