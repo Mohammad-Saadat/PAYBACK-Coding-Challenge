@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		104717D33FA2C72F87D06D1A /* Pods_PaybackAssessment_PaybackAssessmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071AAF7CF735A7F92F0DF17C /* Pods_PaybackAssessment_PaybackAssessmentUITests.framework */; };
+		115C9B762666A88300CB572C /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C9B752666A88300CB572C /* DataBaseManager.swift */; };
 		1173702126664B15002A5623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173702026664B15002A5623 /* AppDelegate.swift */; };
 		1173702B26664B16002A5623 /* PaybackAssessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1173702926664B16002A5623 /* PaybackAssessment.xcdatamodeld */; };
 		1173702D26664B19002A5623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1173702C26664B19002A5623 /* Assets.xcassets */; };
@@ -26,8 +27,7 @@
 		11737126266659B6002A5623 /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117370D3266659B6002A5623 /* EmptyListView.swift */; };
 		11737127266659B6002A5623 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117370D5266659B6002A5623 /* CustomNavigationController.swift */; };
 		11737128266659B6002A5623 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117370D7266659B6002A5623 /* DependencyContainer.swift */; };
-		11737129266659B6002A5623 /* LaunchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117370D9266659B6002A5623 /* LaunchPage.swift */; };
-		1173712A266659B6002A5623 /* LaunchParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117370DA266659B6002A5623 /* LaunchParams.swift */; };
+		11737129266659B6002A5623 /* RemoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117370D9266659B6002A5623 /* RemoteModel.swift */; };
 		1173712B266659B6002A5623 /* ViewStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117370DC266659B6002A5623 /* ViewStateManager.swift */; };
 		1173712C266659B6002A5623 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117370DD266659B6002A5623 /* ActivityIndicator.swift */; };
 		1173712D266659B6002A5623 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117370DF266659B6002A5623 /* Logger.swift */; };
@@ -102,6 +102,7 @@
 
 /* Begin PBXFileReference section */
 		071AAF7CF735A7F92F0DF17C /* Pods_PaybackAssessment_PaybackAssessmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaybackAssessment_PaybackAssessmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		115C9B752666A88300CB572C /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
 		1173701D26664B15002A5623 /* PaybackAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaybackAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1173702026664B15002A5623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1173702A26664B16002A5623 /* PaybackAssessment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PaybackAssessment.xcdatamodel; sourceTree = "<group>"; };
@@ -126,8 +127,7 @@
 		117370D3266659B6002A5623 /* EmptyListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
 		117370D5266659B6002A5623 /* CustomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		117370D7266659B6002A5623 /* DependencyContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
-		117370D9266659B6002A5623 /* LaunchPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchPage.swift; sourceTree = "<group>"; };
-		117370DA266659B6002A5623 /* LaunchParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchParams.swift; sourceTree = "<group>"; };
+		117370D9266659B6002A5623 /* RemoteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteModel.swift; sourceTree = "<group>"; };
 		117370DC266659B6002A5623 /* ViewStateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewStateManager.swift; sourceTree = "<group>"; };
 		117370DD266659B6002A5623 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		117370DF266659B6002A5623 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
@@ -217,6 +217,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		115C9B742666A86600CB572C /* DataBaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				115C9B752666A88300CB572C /* DataBaseManager.swift */,
+			);
+			path = DataBaseManager;
+			sourceTree = "<group>";
+		};
 		1173701426664B15002A5623 = {
 			isa = PBXGroup;
 			children = (
@@ -245,7 +253,6 @@
 				1173707B26664F45002A5623 /* Common */,
 				1173707A26664F3F002A5623 /* Modules */,
 				1173706626664D43002A5623 /* Resources */,
-				1173702E26664B19002A5623 /* LaunchScreen.storyboard */,
 			);
 			path = PaybackAssessment;
 			sourceTree = "<group>";
@@ -274,6 +281,7 @@
 				1173703126664B19002A5623 /* Info.plist */,
 				1173702C26664B19002A5623 /* Assets.xcassets */,
 				1173707026664DEF002A5623 /* Configuration */,
+				1173702E26664B19002A5623 /* LaunchScreen.storyboard */,
 				1173702926664B16002A5623 /* PaybackAssessment.xcdatamodeld */,
 			);
 			path = Resources;
@@ -299,6 +307,7 @@
 		1173707B26664F45002A5623 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				115C9B742666A86600CB572C /* DataBaseManager */,
 				1173702026664B15002A5623 /* AppDelegate.swift */,
 				117370DB266659B6002A5623 /* ActivityIndicator */,
 				117370CB266659B6002A5623 /* CustomClasses */,
@@ -370,8 +379,7 @@
 		117370D8266659B6002A5623 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				117370D9266659B6002A5623 /* LaunchPage.swift */,
-				117370DA266659B6002A5623 /* LaunchParams.swift */,
+				117370D9266659B6002A5623 /* RemoteModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -839,6 +847,7 @@
 				1173713E266659B6002A5623 /* ForceUpdateRouter.swift in Sources */,
 				11737144266659B6002A5623 /* NetworkActivityPlugin.swift in Sources */,
 				11737143266659B6002A5623 /* CustomMoyaProvider.swift in Sources */,
+				115C9B762666A88300CB572C /* DataBaseManager.swift in Sources */,
 				1173713F266659B6002A5623 /* UnAuthorizedErrorHandler.swift in Sources */,
 				11737138266659B6002A5623 /* SpaceXNetworkFactory.swift in Sources */,
 				1173712E266659B6002A5623 /* WindowManager.swift in Sources */,
@@ -862,7 +871,6 @@
 				1173714B266659B6002A5623 /* AppInfoProvider.swift in Sources */,
 				11737134266659B6002A5623 /* AlamofireNetworkReachabilityManager.swift in Sources */,
 				1173712C266659B6002A5623 /* ActivityIndicator.swift in Sources */,
-				1173712A266659B6002A5623 /* LaunchParams.swift in Sources */,
 				11737150266659B6002A5623 /* JSONDecoderExtension.swift in Sources */,
 				11737140266659B6002A5623 /* GeneralErrors.swift in Sources */,
 				1173712B266659B6002A5623 /* ViewStateManager.swift in Sources */,
@@ -887,7 +895,7 @@
 				11737120266659B6002A5623 /* InfoDictionary.swift in Sources */,
 				11737153266659B6002A5623 /* DataExtension.swift in Sources */,
 				1173713A266659B6002A5623 /* ErrorHandlerProtocol.swift in Sources */,
-				11737129266659B6002A5623 /* LaunchPage.swift in Sources */,
+				11737129266659B6002A5623 /* RemoteModel.swift in Sources */,
 				11737149266659B6002A5623 /* MoyaTarget.swift in Sources */,
 				11737121266659B6002A5623 /* SectionViewModel.swift in Sources */,
 				11737155266659B6002A5623 /* CALayerExtension.swift in Sources */,
@@ -990,7 +998,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1045,7 +1053,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1063,7 +1071,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PaybackAssessment/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1083,7 +1091,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PaybackAssessment/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1103,7 +1111,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PaybackAssessmentTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1125,7 +1133,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PaybackAssessmentTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1146,6 +1154,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PaybackAssessmentUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1166,6 +1175,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PaybackAssessmentUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
