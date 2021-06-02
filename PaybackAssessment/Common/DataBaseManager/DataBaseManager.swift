@@ -9,7 +9,7 @@ import Foundation
 import CoreData
 import PromiseKit
 
-protocol DataBaseManagerProtocol {
+protocol TileDataBaseManagerProtocol {
     // MARK: CRUD operations - Optional error
     func fetchTiles() -> Promise<[Tile]>
     func fetchTile(id: String) -> Promise<Tile>
@@ -20,19 +20,19 @@ protocol DataBaseManagerProtocol {
 
 enum TileStoreError: Error {
   case cannotFetch(String)
-  case cannotCreate(String)
+  case cannotInsert(String)
   case cannotUpdate(String)
   case cannotDelete(String)
 }
 
-extension NSManagedObjectContext: DataBaseManagerProtocol {
+extension NSManagedObjectContext: TileDataBaseManagerProtocol {
     func fetchTiles() -> Promise<[Tile]> {
         Promise { seal in
             let fetchRequest: NSFetchRequest<Tile> = Tile.fetchRequest()
             do {
                 seal.fulfill(try self.fetch(fetchRequest))
             } catch {
-                seal.reject(error)
+                seal.reject(TileStoreError.cannotFetch(""))
             }
         }
     }
@@ -61,7 +61,7 @@ extension NSManagedObjectContext: DataBaseManagerProtocol {
                     seal.fulfill(tiles)
                 }
             } catch {
-                seal.reject(error)
+                seal.reject(TileStoreError.cannotInsert(""))
             }
         }
     }
@@ -92,7 +92,7 @@ extension NSManagedObjectContext: DataBaseManagerProtocol {
                 try self.execute(deleteRequest)
                 seal.fulfill(())
             } catch {
-                seal.reject(error)
+                seal.reject(TileStoreError.cannotDelete(""))
             }
         }
     }
