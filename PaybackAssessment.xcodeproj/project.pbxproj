@@ -307,10 +307,10 @@
 		1173707B26664F45002A5623 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				115C9B742666A86600CB572C /* DataBaseManager */,
 				1173702026664B15002A5623 /* AppDelegate.swift */,
 				117370DB266659B6002A5623 /* ActivityIndicator */,
 				117370CB266659B6002A5623 /* CustomClasses */,
+				115C9B742666A86600CB572C /* DataBaseManager */,
 				117370D6266659B6002A5623 /* DependencyContainer */,
 				1173710F266659B6002A5623 /* Extenstions */,
 				117370C9266659B6002A5623 /* Helper */,
