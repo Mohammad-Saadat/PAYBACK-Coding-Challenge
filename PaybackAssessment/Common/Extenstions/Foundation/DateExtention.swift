@@ -15,4 +15,9 @@ extension Date {
         
         return str
     }
+    
+    func isDateInToday() -> Bool {
+        let calendar = Calendar.current
+        return calendar.isDateInToday(self)
+    }
 }
