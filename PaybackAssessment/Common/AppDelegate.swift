@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let frame = UIScreen.main.bounds
         self.window = UIWindow(frame: frame)
-//        self.window?.rootViewController = setHomeViewcontroller()
+        self.window?.rootViewController = setHomeViewcontroller()
         self.window?.makeKeyAndVisible()
         
         return true
@@ -45,11 +45,10 @@ extension AppDelegate {
         return UIApplication.shared.delegate as! AppDelegate
     }
     
-//    func setHomeViewcontroller() -> UIViewController {
-//        let dc = HomeDependencyContainer()
-//        let homeVC = dc.makeHomeViewController()
-//        let navVc = CustomNavigationController(rootViewController: homeVC)
-//        return navVc
-//    }
+    func setHomeViewcontroller() -> UIViewController {
+        let dc = HomeDependencyContainer()
+        let homeVC = dc.makeHomeViewController()
+        let navVc = CustomNavigationController(rootViewController: homeVC)
+        return navVc
+    }
 }
-
