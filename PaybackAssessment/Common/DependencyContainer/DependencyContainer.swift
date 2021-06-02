@@ -10,16 +10,8 @@ import Foundation
 public class DependencyContainer {
     lazy var networkManager: NetworkManagerProtocol = AppDelegate.getInstance().networkManager
     lazy var networkStateNotifier = AppDelegate.getInstance().networkStateNotifier
-    lazy var persistentContainer = AppDelegate.getInstance().persistentContainer.viewContext
-//    lazy var analyticsManager = AppDelegate.getInstance().analyticsManager
+    lazy var tileDataBaseManager: TileDataBaseManagerProtocol = AppDelegate.getInstance().persistentContainer.viewContext
 }
 
 extension DependencyContainer {
-//    func makeWindowManager() -> WindowManager {
-//        return self.windowManager! // swiftlint:disable:this force_unwrapping
-//    }
-//
-//    func makeAnalyticsManager() -> AnalyticsManager {
-//        return self.analyticsManager! // swiftlint:disable:this force_unwrapping
-//    }
 }
