@@ -24,4 +24,3 @@ extension Tile {
     @NSManaged public var subline: String?
 
 }
-

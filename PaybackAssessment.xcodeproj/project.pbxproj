@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		104717D33FA2C72F87D06D1A /* Pods_PaybackAssessment_PaybackAssessmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071AAF7CF735A7F92F0DF17C /* Pods_PaybackAssessment_PaybackAssessmentUITests.framework */; };
+		11209F132667697D005A7F29 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11209F072667697D005A7F29 /* HomeRouter.swift */; };
+		11209F142667697D005A7F29 /* HomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11209F082667697D005A7F29 /* HomeWorker.swift */; };
+		11209F152667697D005A7F29 /* HomeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11209F092667697D005A7F29 /* HomeFactory.swift */; };
+		11209F162667697D005A7F29 /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11209F0A2667697D005A7F29 /* HomeModels.swift */; };
+		11209F172667697D005A7F29 /* HomeEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11209F0B2667697D005A7F29 /* HomeEndpoint.swift */; };
+		11209F182667697D005A7F29 /* HomeDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11209F0C2667697D005A7F29 /* HomeDependencyContainer.swift */; };
+		11209F192667697D005A7F29 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11209F0D2667697D005A7F29 /* HomeViewController.xib */; };
+		11209F1A2667697D005A7F29 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11209F0E2667697D005A7F29 /* HomePresenter.swift */; };
+		11209F1B2667697D005A7F29 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11209F0F2667697D005A7F29 /* HomeService.swift */; };
+		11209F1C2667697D005A7F29 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11209F102667697D005A7F29 /* HomeViewController.swift */; };
+		11209F1D2667697D005A7F29 /* HomeLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11209F112667697D005A7F29 /* HomeLogger.swift */; };
+		11209F1E2667697D005A7F29 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11209F122667697D005A7F29 /* HomeInteractor.swift */; };
+		11209F3226678468005A7F29 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11209F3126678468005A7F29 /* UserDefaultsExtension.swift */; };
 		115C9B762666A88300CB572C /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C9B752666A88300CB572C /* DataBaseManager.swift */; };
 		1173702126664B15002A5623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173702026664B15002A5623 /* AppDelegate.swift */; };
 		1173702B26664B16002A5623 /* PaybackAssessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1173702926664B16002A5623 /* PaybackAssessment.xcdatamodeld */; };
@@ -41,7 +54,7 @@
 		11737135266659B6002A5623 /* NetStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117370EB266659B6002A5623 /* NetStatus.swift */; };
 		11737136266659B6002A5623 /* NetworkStateNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117370EC266659B6002A5623 /* NetworkStateNotifier.swift */; };
 		11737137266659B6002A5623 /* NetworkNotifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117370ED266659B6002A5623 /* NetworkNotifierProtocol.swift */; };
-		11737138266659B6002A5623 /* SpaceXNetworkFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117370EF266659B6002A5623 /* SpaceXNetworkFactory.swift */; };
+		11737138266659B6002A5623 /* PayBackNetworkFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117370EF266659B6002A5623 /* PayBackNetworkFactory.swift */; };
 		11737139266659B6002A5623 /* BackendError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117370F2266659B6002A5623 /* BackendError.swift */; };
 		1173713A266659B6002A5623 /* ErrorHandlerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117370F4266659B6002A5623 /* ErrorHandlerProtocol.swift */; };
 		1173713B266659B6002A5623 /* ForceUpdateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 117370F7266659B6002A5623 /* ForceUpdateViewController.xib */; };
@@ -79,6 +92,7 @@
 		1173715B266659B6002A5623 /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173711D266659B6002A5623 /* UIAlertController.swift */; };
 		1173715C266659B6002A5623 /* UITapGestureRecognizerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173711E266659B6002A5623 /* UITapGestureRecognizerExtension.swift */; };
 		1173715D266659B6002A5623 /* UIViewControllerExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173711F266659B6002A5623 /* UIViewControllerExtention.swift */; };
+		11A3931726679DF3007B8EC5 /* TailParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3931626679DF3007B8EC5 /* TailParams.swift */; };
 		228D1EA28C444410FAF893EA /* Pods_PaybackAssessmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4A206ECC7A6475BF4BE143 /* Pods_PaybackAssessmentTests.framework */; };
 		F24105994374EA414B48C042 /* Pods_PaybackAssessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F046470CFE3D87D105B5C0A6 /* Pods_PaybackAssessment.framework */; };
 /* End PBXBuildFile section */
@@ -102,6 +116,19 @@
 
 /* Begin PBXFileReference section */
 		071AAF7CF735A7F92F0DF17C /* Pods_PaybackAssessment_PaybackAssessmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaybackAssessment_PaybackAssessmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11209F072667697D005A7F29 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		11209F082667697D005A7F29 /* HomeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorker.swift; sourceTree = "<group>"; };
+		11209F092667697D005A7F29 /* HomeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFactory.swift; sourceTree = "<group>"; };
+		11209F0A2667697D005A7F29 /* HomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
+		11209F0B2667697D005A7F29 /* HomeEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEndpoint.swift; sourceTree = "<group>"; };
+		11209F0C2667697D005A7F29 /* HomeDependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDependencyContainer.swift; sourceTree = "<group>"; };
+		11209F0D2667697D005A7F29 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		11209F0E2667697D005A7F29 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		11209F0F2667697D005A7F29 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		11209F102667697D005A7F29 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		11209F112667697D005A7F29 /* HomeLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLogger.swift; sourceTree = "<group>"; };
+		11209F122667697D005A7F29 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		11209F3126678468005A7F29 /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
 		115C9B752666A88300CB572C /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
 		1173701D26664B15002A5623 /* PaybackAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaybackAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1173702026664B15002A5623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -141,7 +168,7 @@
 		117370EB266659B6002A5623 /* NetStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetStatus.swift; sourceTree = "<group>"; };
 		117370EC266659B6002A5623 /* NetworkStateNotifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkStateNotifier.swift; sourceTree = "<group>"; };
 		117370ED266659B6002A5623 /* NetworkNotifierProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkNotifierProtocol.swift; sourceTree = "<group>"; };
-		117370EF266659B6002A5623 /* SpaceXNetworkFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceXNetworkFactory.swift; sourceTree = "<group>"; };
+		117370EF266659B6002A5623 /* PayBackNetworkFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayBackNetworkFactory.swift; sourceTree = "<group>"; };
 		117370F2266659B6002A5623 /* BackendError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendError.swift; sourceTree = "<group>"; };
 		117370F4266659B6002A5623 /* ErrorHandlerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandlerProtocol.swift; sourceTree = "<group>"; };
 		117370F7266659B6002A5623 /* ForceUpdateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForceUpdateViewController.xib; sourceTree = "<group>"; };
@@ -179,6 +206,7 @@
 		1173711D266659B6002A5623 /* UIAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
 		1173711E266659B6002A5623 /* UITapGestureRecognizerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITapGestureRecognizerExtension.swift; sourceTree = "<group>"; };
 		1173711F266659B6002A5623 /* UIViewControllerExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtention.swift; sourceTree = "<group>"; };
+		11A3931626679DF3007B8EC5 /* TailParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TailParams.swift; sourceTree = "<group>"; };
 		16C0ECC640185F43427A7F31 /* Pods-PaybackAssessment-PaybackAssessmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment-PaybackAssessmentUITests.release.xcconfig"; path = "Target Support Files/Pods-PaybackAssessment-PaybackAssessmentUITests/Pods-PaybackAssessment-PaybackAssessmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		173B832F28475D3CC4F60DA2 /* Pods-PaybackAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment.release.xcconfig"; path = "Target Support Files/Pods-PaybackAssessment/Pods-PaybackAssessment.release.xcconfig"; sourceTree = "<group>"; };
 		182C443224193C127A360D5A /* Pods-PaybackAssessmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessmentTests.debug.xcconfig"; path = "Target Support Files/Pods-PaybackAssessmentTests/Pods-PaybackAssessmentTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -217,6 +245,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11209F0626676971005A7F29 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				11209F122667697D005A7F29 /* HomeInteractor.swift */,
+				11209F112667697D005A7F29 /* HomeLogger.swift */,
+				11209F0A2667697D005A7F29 /* HomeModels.swift */,
+				11209F0E2667697D005A7F29 /* HomePresenter.swift */,
+				11209F072667697D005A7F29 /* HomeRouter.swift */,
+				11209F29266771CB005A7F29 /* DependencyContainer */,
+				11209F2A266771D8005A7F29 /* Service */,
+				11209F28266771BD005A7F29 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		11209F28266771BD005A7F29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11209F0D2667697D005A7F29 /* HomeViewController.xib */,
+				11209F102667697D005A7F29 /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11209F29266771CB005A7F29 /* DependencyContainer */ = {
+			isa = PBXGroup;
+			children = (
+				11209F092667697D005A7F29 /* HomeFactory.swift */,
+				11209F0C2667697D005A7F29 /* HomeDependencyContainer.swift */,
+			);
+			path = DependencyContainer;
+			sourceTree = "<group>";
+		};
+		11209F2A266771D8005A7F29 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				11209F0B2667697D005A7F29 /* HomeEndpoint.swift */,
+				11209F0F2667697D005A7F29 /* HomeService.swift */,
+				11209F082667697D005A7F29 /* HomeWorker.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		115C9B742666A86600CB572C /* DataBaseManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -300,6 +371,7 @@
 		1173707A26664F3F002A5623 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				11209F0626676971005A7F29 /* Home */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -380,6 +452,7 @@
 			isa = PBXGroup;
 			children = (
 				117370D9266659B6002A5623 /* RemoteModel.swift */,
+				11A3931626679DF3007B8EC5 /* TailParams.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -426,7 +499,7 @@
 			isa = PBXGroup;
 			children = (
 				117370E9266659B6002A5623 /* NetworkNotifier */,
-				117370EE266659B6002A5623 /* SpaceXNetwork */,
+				117370EE266659B6002A5623 /* PayBackNetwork */,
 				117370F0266659B6002A5623 /* NetworkLayer */,
 			);
 			path = Remote;
@@ -443,12 +516,12 @@
 			path = NetworkNotifier;
 			sourceTree = "<group>";
 		};
-		117370EE266659B6002A5623 /* SpaceXNetwork */ = {
+		117370EE266659B6002A5623 /* PayBackNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				117370EF266659B6002A5623 /* SpaceXNetworkFactory.swift */,
+				117370EF266659B6002A5623 /* PayBackNetworkFactory.swift */,
 			);
-			path = SpaceXNetwork;
+			path = PayBackNetwork;
 			sourceTree = "<group>";
 		};
 		117370F0266659B6002A5623 /* NetworkLayer */ = {
@@ -465,9 +538,9 @@
 			isa = PBXGroup;
 			children = (
 				117370F2266659B6002A5623 /* BackendError.swift */,
-				117370F3266659B6002A5623 /* Handlers */,
 				117370FC266659B6002A5623 /* GeneralErrors.swift */,
 				117370FD266659B6002A5623 /* NetworkErrors.swift */,
+				117370F3266659B6002A5623 /* Handlers */,
 			);
 			path = Errors;
 			sourceTree = "<group>";
@@ -506,10 +579,10 @@
 			children = (
 				117370FF266659B6002A5623 /* Connectivity.swift */,
 				11737100266659B6002A5623 /* CustomMoyaProvider.swift */,
-				11737101266659B6002A5623 /* Plugins */,
 				11737106266659B6002A5623 /* CustomUrlEncoding.swift */,
-				11737107266659B6002A5623 /* MoyaTarget.swift */,
 				11737108266659B6002A5623 /* MoyaService.swift */,
+				11737107266659B6002A5623 /* MoyaTarget.swift */,
+				11737101266659B6002A5623 /* Plugins */,
 			);
 			path = Moya;
 			sourceTree = "<group>";
@@ -554,6 +627,7 @@
 				11737113266659B6002A5623 /* DateExtention.swift */,
 				11737114266659B6002A5623 /* DataExtension.swift */,
 				11737115266659B6002A5623 /* StringExtention.swift */,
+				11209F3126678468005A7F29 /* UserDefaultsExtension.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -712,6 +786,7 @@
 				1173713B266659B6002A5623 /* ForceUpdateViewController.xib in Resources */,
 				1173703026664B19002A5623 /* LaunchScreen.storyboard in Resources */,
 				1173702D26664B19002A5623 /* Assets.xcassets in Resources */,
+				11209F192667697D005A7F29 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -843,18 +918,23 @@
 				11737139266659B6002A5623 /* BackendError.swift in Sources */,
 				11737146266659B6002A5623 /* NetworkLoggerPlugin.swift in Sources */,
 				11737123266659B6002A5623 /* TableViewDataSource.swift in Sources */,
+				11209F3226678468005A7F29 /* UserDefaultsExtension.swift in Sources */,
 				1173715B266659B6002A5623 /* UIAlertController.swift in Sources */,
 				1173713E266659B6002A5623 /* ForceUpdateRouter.swift in Sources */,
 				11737144266659B6002A5623 /* NetworkActivityPlugin.swift in Sources */,
 				11737143266659B6002A5623 /* CustomMoyaProvider.swift in Sources */,
 				115C9B762666A88300CB572C /* DataBaseManager.swift in Sources */,
 				1173713F266659B6002A5623 /* UnAuthorizedErrorHandler.swift in Sources */,
-				11737138266659B6002A5623 /* SpaceXNetworkFactory.swift in Sources */,
+				11209F162667697D005A7F29 /* HomeModels.swift in Sources */,
+				11737138266659B6002A5623 /* PayBackNetworkFactory.swift in Sources */,
 				1173712E266659B6002A5623 /* WindowManager.swift in Sources */,
 				1173714F266659B6002A5623 /* TokenProvider.swift in Sources */,
+				11209F1B2667697D005A7F29 /* HomeService.swift in Sources */,
 				1173702126664B15002A5623 /* AppDelegate.swift in Sources */,
 				11737157266659B6002A5623 /* UIColorExtention.swift in Sources */,
 				1173712F266659B6002A5623 /* UIWindow+ChangeRoot.swift in Sources */,
+				11209F132667697D005A7F29 /* HomeRouter.swift in Sources */,
+				11A3931726679DF3007B8EC5 /* TailParams.swift in Sources */,
 				11737122266659B6002A5623 /* TableView.swift in Sources */,
 				11737152266659B6002A5623 /* DateExtention.swift in Sources */,
 				1173715C266659B6002A5623 /* UITapGestureRecognizerExtension.swift in Sources */,
@@ -864,6 +944,7 @@
 				11737154266659B6002A5623 /* StringExtention.swift in Sources */,
 				11737133266659B6002A5623 /* RTAChangeRootSegue.swift in Sources */,
 				1173715D266659B6002A5623 /* UIViewControllerExtention.swift in Sources */,
+				11209F182667697D005A7F29 /* HomeDependencyContainer.swift in Sources */,
 				11737137266659B6002A5623 /* NetworkNotifierProtocol.swift in Sources */,
 				11737148266659B6002A5623 /* CustomUrlEncoding.swift in Sources */,
 				11737136266659B6002A5623 /* NetworkStateNotifier.swift in Sources */,
@@ -871,10 +952,14 @@
 				1173714B266659B6002A5623 /* AppInfoProvider.swift in Sources */,
 				11737134266659B6002A5623 /* AlamofireNetworkReachabilityManager.swift in Sources */,
 				1173712C266659B6002A5623 /* ActivityIndicator.swift in Sources */,
+				11209F1D2667697D005A7F29 /* HomeLogger.swift in Sources */,
 				11737150266659B6002A5623 /* JSONDecoderExtension.swift in Sources */,
 				11737140266659B6002A5623 /* GeneralErrors.swift in Sources */,
 				1173712B266659B6002A5623 /* ViewStateManager.swift in Sources */,
+				11209F172667697D005A7F29 /* HomeEndpoint.swift in Sources */,
+				11209F152667697D005A7F29 /* HomeFactory.swift in Sources */,
 				11737156266659B6002A5623 /* UIViewExtention.swift in Sources */,
+				11209F1E2667697D005A7F29 /* HomeInteractor.swift in Sources */,
 				11737158266659B6002A5623 /* NibLoadableView.swift in Sources */,
 				1173713D266659B6002A5623 /* ForceUpdateErrorHandler.swift in Sources */,
 				11737124266659B6002A5623 /* CellViewModel.swift in Sources */,
@@ -882,14 +967,17 @@
 				11737141266659B6002A5623 /* NetworkErrors.swift in Sources */,
 				11737132266659B6002A5623 /* RTAChangeRootProtocolExtension.swift in Sources */,
 				11737126266659B6002A5623 /* EmptyListView.swift in Sources */,
+				11209F1A2667697D005A7F29 /* HomePresenter.swift in Sources */,
 				1173714A266659B6002A5623 /* MoyaService.swift in Sources */,
 				11737145266659B6002A5623 /* AppInfoPlugin.swift in Sources */,
+				11209F142667697D005A7F29 /* HomeWorker.swift in Sources */,
 				11737128266659B6002A5623 /* DependencyContainer.swift in Sources */,
 				11737147266659B6002A5623 /* GeneralErrorHandlerPlugin.swift in Sources */,
 				1173715A266659B6002A5623 /* UIBezierPathExtension.swift in Sources */,
 				11737159266659B6002A5623 /* UIImageViewExtension.swift in Sources */,
 				11737142266659B6002A5623 /* Connectivity.swift in Sources */,
 				11737151266659B6002A5623 /* JSONEncoderExtension.swift in Sources */,
+				11209F1C2667697D005A7F29 /* HomeViewController.swift in Sources */,
 				1173714E266659B6002A5623 /* RequestProtocol.swift in Sources */,
 				1173712D266659B6002A5623 /* Logger.swift in Sources */,
 				11737120266659B6002A5623 /* InfoDictionary.swift in Sources */,
@@ -1070,6 +1158,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN2PG7K999;
 				INFOPLIST_FILE = PaybackAssessment/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1090,6 +1179,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN2PG7K999;
 				INFOPLIST_FILE = PaybackAssessment/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
