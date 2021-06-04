@@ -72,6 +72,7 @@ extension HomeViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "HOME"
         factory.setup(viewController: self)
         interactor?.fetchData()
     }

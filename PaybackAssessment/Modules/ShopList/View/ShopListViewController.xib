@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShopListViewController" customModule="PaybackAssessment" customModuleProvider="target">
+            <connections>
+                <outlet property="itemTextField" destination="ric-2n-zIl" id="c1A-7n-VBK"/>
+                <outlet property="tableView" destination="fbI-lB-1c0" id="dIM-vV-h1P"/>
+                <outlet property="view" destination="tcv-Je-n87" id="aLg-ZJ-JqL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="tcv-Je-n87">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dZ0-hP-q4g">
+                    <rect key="frame" x="318" y="44" width="80" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="nBZ-Qk-bVh"/>
+                        <constraint firstAttribute="width" constant="80" id="z5n-0s-ZAa"/>
+                    </constraints>
+                    <state key="normal" title="Done"/>
+                    <connections>
+                        <action selector="cancelTouchUpInside:" destination="-1" eventType="touchUpInside" id="wdv-kM-uPN"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cva-rs-Vf9">
+                    <rect key="frame" x="0.0" y="94" width="414" height="64"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add Item" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ric-2n-zIl">
+                            <rect key="frame" x="8" y="8" width="398" height="48"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="ric-2n-zIl" firstAttribute="leading" secondItem="cva-rs-Vf9" secondAttribute="leading" constant="8" id="5Km-9y-G9H"/>
+                        <constraint firstAttribute="height" constant="64" id="Efy-Ry-SNu"/>
+                        <constraint firstItem="ric-2n-zIl" firstAttribute="top" secondItem="cva-rs-Vf9" secondAttribute="top" constant="8" id="J2l-03-WF9"/>
+                        <constraint firstAttribute="bottom" secondItem="ric-2n-zIl" secondAttribute="bottom" constant="8" id="Lk4-cZ-s77"/>
+                        <constraint firstAttribute="trailing" secondItem="ric-2n-zIl" secondAttribute="trailing" constant="8" id="Wks-mF-TJX"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fbI-lB-1c0" customClass="DefaultTableView" customModule="PaybackAssessment" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="158" width="414" height="704"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Eth-Jp-JLn"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Eth-Jp-JLn" firstAttribute="leading" secondItem="cva-rs-Vf9" secondAttribute="leading" id="6uQ-JJ-KDr"/>
+                <constraint firstAttribute="trailing" secondItem="fbI-lB-1c0" secondAttribute="trailing" id="CZ8-Pz-NSu"/>
+                <constraint firstItem="cva-rs-Vf9" firstAttribute="top" secondItem="dZ0-hP-q4g" secondAttribute="bottom" id="ZfZ-Ng-7Uv"/>
+                <constraint firstItem="fbI-lB-1c0" firstAttribute="leading" secondItem="tcv-Je-n87" secondAttribute="leading" id="dc1-rQ-JgN"/>
+                <constraint firstItem="fbI-lB-1c0" firstAttribute="top" secondItem="cva-rs-Vf9" secondAttribute="bottom" id="jvT-Vq-HDT"/>
+                <constraint firstItem="Eth-Jp-JLn" firstAttribute="bottom" secondItem="fbI-lB-1c0" secondAttribute="bottom" id="miv-md-Mnx"/>
+                <constraint firstItem="dZ0-hP-q4g" firstAttribute="trailing" secondItem="Eth-Jp-JLn" secondAttribute="trailing" constant="-16" id="nHz-pb-VNj"/>
+                <constraint firstItem="Eth-Jp-JLn" firstAttribute="trailing" secondItem="cva-rs-Vf9" secondAttribute="trailing" id="oIM-ri-3Eg"/>
+                <constraint firstItem="dZ0-hP-q4g" firstAttribute="top" secondItem="Eth-Jp-JLn" secondAttribute="top" id="ygR-86-JVj"/>
+            </constraints>
+            <point key="canvasLocation" x="50.724637681159422" y="115.84821428571428"/>
+        </view>
+    </objects>
+</document>

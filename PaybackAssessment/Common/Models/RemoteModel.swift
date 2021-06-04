@@ -7,6 +7,7 @@
 
 import Foundation
 import CoreData
+import UIKit
 
 // MARK: - TilesWrapper
 struct TilesWrapper: Codable {
@@ -18,7 +19,7 @@ struct RemoteTile: Codable {
     let name: Name?
     let headline, subline: String?
     let data: String?
-    let score: Int?
+    let score: Int
 }
 
 extension RemoteTile {
@@ -28,7 +29,7 @@ extension RemoteTile {
         tile.data = self.data
         tile.headline = self.headline
         tile.subline = self.subline
-        tile.score = "\(self.score ?? 0)"
+        tile.score = Int64(self.score)
         tile.id = UUID().uuidString
         return tile
     }
@@ -51,11 +52,39 @@ extension Tile {
         guard let name = Name(rawValue: nameString)  else { return nil }
         return name
     }
+    
+    func giveImage() -> UIImage? {
+        guard let name = self.giveName() else { return nil }
+        switch name {
+        case .image:
+            return #imageLiteral(resourceName: "Picture")
+        case .video:
+            return #imageLiteral(resourceName: "video")
+        case .website:
+            return #imageLiteral(resourceName: "website")
+        case .shoppingList:
+            return #imageLiteral(resourceName: "shopList")
+        }
+    }
+    
+    func giveDescription() -> String? {
+        guard let name = self.giveName() else { return nil }
+        switch name {
+        case .image:
+            return "image exist in detail page"
+        case .video:
+            return "video exist in detail page"
+        case .website:
+            return "there is nice web view in detail page"
+        case .shoppingList:
+            return "you can see your list in detail page"
+        }
+    }
 }
 
 enum Name: String, Codable {
     case image
     case video
     case website
-    case shoppingList
+    case shoppingList = "shopping_list"
 }

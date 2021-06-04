@@ -59,7 +59,7 @@ private extension ImageDetailViewController {
 }
 
 // MARK: - Actions
-extension HomeViewController {
+extension ImageDetailViewController {
     @IBAction func cancelButtonTouchUpInside(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }

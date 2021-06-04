@@ -101,6 +101,25 @@
 		11AE0CBC2669FDFE0061B12C /* ImageDetailDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE0CBB2669FDFE0061B12C /* ImageDetailDependencyContainer.swift */; };
 		11AE0CC12669FE0A0061B12C /* ImageDetailFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE0CC02669FE0A0061B12C /* ImageDetailFactory.swift */; };
 		11AE0CC62669FE1C0061B12C /* ImageDetailLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE0CC52669FE1C0061B12C /* ImageDetailLogger.swift */; };
+		11B35EC4266AA01700986345 /* KeyboardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B35EC0266AA01700986345 /* KeyboardInfo.swift */; };
+		11B35EC5266AA01700986345 /* KeyboardHandlerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B35EC1266AA01700986345 /* KeyboardHandlerDelegate.swift */; };
+		11B35EC6266AA01800986345 /* KeyboardHandlerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B35EC2266AA01700986345 /* KeyboardHandlerViewController.swift */; };
+		11B35EC7266AA01800986345 /* KeyboardHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B35EC3266AA01700986345 /* KeyboardHandler.swift */; };
+		11C58957266A03B700D401F9 /* ShopListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5894B266A03B700D401F9 /* ShopListFactory.swift */; };
+		11C58958266A03B700D401F9 /* ShopListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5894C266A03B700D401F9 /* ShopListPresenter.swift */; };
+		11C58959266A03B700D401F9 /* ShopListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5894D266A03B700D401F9 /* ShopListWorker.swift */; };
+		11C5895A266A03B700D401F9 /* ShopListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5894E266A03B700D401F9 /* ShopListRouter.swift */; };
+		11C5895B266A03B700D401F9 /* ShopListEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5894F266A03B700D401F9 /* ShopListEndpoint.swift */; };
+		11C5895C266A03B700D401F9 /* ShopListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C58950266A03B700D401F9 /* ShopListModels.swift */; };
+		11C5895D266A03B700D401F9 /* ShopListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C58951266A03B700D401F9 /* ShopListViewController.swift */; };
+		11C5895E266A03B700D401F9 /* ShopListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C58952266A03B700D401F9 /* ShopListInteractor.swift */; };
+		11C5895F266A03B700D401F9 /* ShopListLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C58953266A03B700D401F9 /* ShopListLogger.swift */; };
+		11C58960266A03B700D401F9 /* ShopListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11C58954266A03B700D401F9 /* ShopListViewController.xib */; };
+		11C58961266A03B700D401F9 /* ShopListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C58955266A03B700D401F9 /* ShopListService.swift */; };
+		11C58962266A03B700D401F9 /* ShopListDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C58956266A03B700D401F9 /* ShopListDependencyContainer.swift */; };
+		11CC56DD266A1565009A16BF /* ShopListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CC56DB266A1565009A16BF /* ShopListTableViewCell.swift */; };
+		11CC56DE266A1565009A16BF /* ShopListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11CC56DC266A1565009A16BF /* ShopListTableViewCell.xib */; };
+		11CC56E6266A1577009A16BF /* ShopListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CC56E5266A1577009A16BF /* ShopListItemViewModel.swift */; };
 		11D3D6F32667FE7900D77350 /* WebViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D3D6E92667FE7900D77350 /* WebViewFactory.swift */; };
 		11D3D6F52667FE7900D77350 /* WebViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D3D6EB2667FE7900D77350 /* WebViewModels.swift */; };
 		11D3D6F62667FE7900D77350 /* WebViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D3D6EC2667FE7900D77350 /* WebViewInteractor.swift */; };
@@ -232,6 +251,25 @@
 		11AE0CBB2669FDFE0061B12C /* ImageDetailDependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailDependencyContainer.swift; sourceTree = "<group>"; };
 		11AE0CC02669FE0A0061B12C /* ImageDetailFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailFactory.swift; sourceTree = "<group>"; };
 		11AE0CC52669FE1C0061B12C /* ImageDetailLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailLogger.swift; sourceTree = "<group>"; };
+		11B35EC0266AA01700986345 /* KeyboardInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardInfo.swift; sourceTree = "<group>"; };
+		11B35EC1266AA01700986345 /* KeyboardHandlerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardHandlerDelegate.swift; sourceTree = "<group>"; };
+		11B35EC2266AA01700986345 /* KeyboardHandlerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardHandlerViewController.swift; sourceTree = "<group>"; };
+		11B35EC3266AA01700986345 /* KeyboardHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardHandler.swift; sourceTree = "<group>"; };
+		11C5894B266A03B700D401F9 /* ShopListFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListFactory.swift; sourceTree = "<group>"; };
+		11C5894C266A03B700D401F9 /* ShopListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListPresenter.swift; sourceTree = "<group>"; };
+		11C5894D266A03B700D401F9 /* ShopListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListWorker.swift; sourceTree = "<group>"; };
+		11C5894E266A03B700D401F9 /* ShopListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListRouter.swift; sourceTree = "<group>"; };
+		11C5894F266A03B700D401F9 /* ShopListEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListEndpoint.swift; sourceTree = "<group>"; };
+		11C58950266A03B700D401F9 /* ShopListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListModels.swift; sourceTree = "<group>"; };
+		11C58951266A03B700D401F9 /* ShopListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListViewController.swift; sourceTree = "<group>"; };
+		11C58952266A03B700D401F9 /* ShopListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListInteractor.swift; sourceTree = "<group>"; };
+		11C58953266A03B700D401F9 /* ShopListLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListLogger.swift; sourceTree = "<group>"; };
+		11C58954266A03B700D401F9 /* ShopListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopListViewController.xib; sourceTree = "<group>"; };
+		11C58955266A03B700D401F9 /* ShopListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListService.swift; sourceTree = "<group>"; };
+		11C58956266A03B700D401F9 /* ShopListDependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListDependencyContainer.swift; sourceTree = "<group>"; };
+		11CC56DB266A1565009A16BF /* ShopListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListTableViewCell.swift; sourceTree = "<group>"; };
+		11CC56DC266A1565009A16BF /* ShopListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopListTableViewCell.xib; sourceTree = "<group>"; };
+		11CC56E5266A1577009A16BF /* ShopListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListItemViewModel.swift; sourceTree = "<group>"; };
 		11D3D6E92667FE7900D77350 /* WebViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewFactory.swift; sourceTree = "<group>"; };
 		11D3D6EB2667FE7900D77350 /* WebViewModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewModels.swift; sourceTree = "<group>"; };
 		11D3D6EC2667FE7900D77350 /* WebViewInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewInteractor.swift; sourceTree = "<group>"; };
@@ -244,11 +282,29 @@
 		16C0ECC640185F43427A7F31 /* Pods-PaybackAssessment-PaybackAssessmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment-PaybackAssessmentUITests.release.xcconfig"; path = "Target Support Files/Pods-PaybackAssessment-PaybackAssessmentUITests/Pods-PaybackAssessment-PaybackAssessmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		173B832F28475D3CC4F60DA2 /* Pods-PaybackAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment.release.xcconfig"; path = "Target Support Files/Pods-PaybackAssessment/Pods-PaybackAssessment.release.xcconfig"; sourceTree = "<group>"; };
 		182C443224193C127A360D5A /* Pods-PaybackAssessmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessmentTests.debug.xcconfig"; path = "Target Support Files/Pods-PaybackAssessmentTests/Pods-PaybackAssessmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		23C7AF89E026C863ACEFEC57 /* Pods-PaybackAssessmentTests.release(stage).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessmentTests.release(stage).xcconfig"; path = "Target Support Files/Pods-PaybackAssessmentTests/Pods-PaybackAssessmentTests.release(stage).xcconfig"; sourceTree = "<group>"; };
+		28D6AE38017D7DCD85C11A9C /* Pods-PaybackAssessmentTests.release(production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessmentTests.release(production).xcconfig"; path = "Target Support Files/Pods-PaybackAssessmentTests/Pods-PaybackAssessmentTests.release(production).xcconfig"; sourceTree = "<group>"; };
 		3D4A206ECC7A6475BF4BE143 /* Pods_PaybackAssessmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaybackAssessmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2285E86A6A7CD8BA4D30BB /* Pods-PaybackAssessmentTests.debug(stage).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessmentTests.debug(stage).xcconfig"; path = "Target Support Files/Pods-PaybackAssessmentTests/Pods-PaybackAssessmentTests.debug(stage).xcconfig"; sourceTree = "<group>"; };
+		41E5017776AA4ABA3B54A8DE /* Pods-PaybackAssessment.release(development).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment.release(development).xcconfig"; path = "Target Support Files/Pods-PaybackAssessment/Pods-PaybackAssessment.release(development).xcconfig"; sourceTree = "<group>"; };
+		4713E9DAB525F1AA525147AE /* Pods-PaybackAssessment-PaybackAssessmentUITests.release(stage).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment-PaybackAssessmentUITests.release(stage).xcconfig"; path = "Target Support Files/Pods-PaybackAssessment-PaybackAssessmentUITests/Pods-PaybackAssessment-PaybackAssessmentUITests.release(stage).xcconfig"; sourceTree = "<group>"; };
+		4794064C2C7058FBC5F48FE9 /* Pods-PaybackAssessment.release(production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment.release(production).xcconfig"; path = "Target Support Files/Pods-PaybackAssessment/Pods-PaybackAssessment.release(production).xcconfig"; sourceTree = "<group>"; };
 		4A3095F43D4923351B1E1050 /* Pods-PaybackAssessment-PaybackAssessmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment-PaybackAssessmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-PaybackAssessment-PaybackAssessmentUITests/Pods-PaybackAssessment-PaybackAssessmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4D719E6610B911F9D0DFD5D6 /* Pods-PaybackAssessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment.debug.xcconfig"; path = "Target Support Files/Pods-PaybackAssessment/Pods-PaybackAssessment.debug.xcconfig"; sourceTree = "<group>"; };
+		51A5E8ED39E950BEA8C39CDC /* Pods-PaybackAssessment-PaybackAssessmentUITests.debug(stage).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment-PaybackAssessmentUITests.debug(stage).xcconfig"; path = "Target Support Files/Pods-PaybackAssessment-PaybackAssessmentUITests/Pods-PaybackAssessment-PaybackAssessmentUITests.debug(stage).xcconfig"; sourceTree = "<group>"; };
+		54F7118F0EF4A30C79933538 /* Pods-PaybackAssessment-PaybackAssessmentUITests.debug(production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment-PaybackAssessmentUITests.debug(production).xcconfig"; path = "Target Support Files/Pods-PaybackAssessment-PaybackAssessmentUITests/Pods-PaybackAssessment-PaybackAssessmentUITests.debug(production).xcconfig"; sourceTree = "<group>"; };
 		67DDAD27A5A5DEDB4409194E /* Pods-PaybackAssessmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessmentTests.release.xcconfig"; path = "Target Support Files/Pods-PaybackAssessmentTests/Pods-PaybackAssessmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		75998D3A9B89E1D43DD07600 /* Pods-PaybackAssessment-PaybackAssessmentUITests.release(production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment-PaybackAssessmentUITests.release(production).xcconfig"; path = "Target Support Files/Pods-PaybackAssessment-PaybackAssessmentUITests/Pods-PaybackAssessment-PaybackAssessmentUITests.release(production).xcconfig"; sourceTree = "<group>"; };
+		760B6DB4E4BE1449778DCBDD /* Pods-PaybackAssessmentTests.debug(development).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessmentTests.debug(development).xcconfig"; path = "Target Support Files/Pods-PaybackAssessmentTests/Pods-PaybackAssessmentTests.debug(development).xcconfig"; sourceTree = "<group>"; };
+		774AAE83D4CD338C9221033F /* Pods-PaybackAssessment.debug(development).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment.debug(development).xcconfig"; path = "Target Support Files/Pods-PaybackAssessment/Pods-PaybackAssessment.debug(development).xcconfig"; sourceTree = "<group>"; };
+		793867EC1AA1DE8AA0868449 /* Pods-PaybackAssessment.release(stage).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment.release(stage).xcconfig"; path = "Target Support Files/Pods-PaybackAssessment/Pods-PaybackAssessment.release(stage).xcconfig"; sourceTree = "<group>"; };
+		9BA766761E9D69442109C8A7 /* Pods-PaybackAssessment.debug(stage).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment.debug(stage).xcconfig"; path = "Target Support Files/Pods-PaybackAssessment/Pods-PaybackAssessment.debug(stage).xcconfig"; sourceTree = "<group>"; };
+		B697EB345E6132743D797D64 /* Pods-PaybackAssessmentTests.release(development).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessmentTests.release(development).xcconfig"; path = "Target Support Files/Pods-PaybackAssessmentTests/Pods-PaybackAssessmentTests.release(development).xcconfig"; sourceTree = "<group>"; };
+		CBBCBF25714A5C62E64ED6F3 /* Pods-PaybackAssessment-PaybackAssessmentUITests.debug(development).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment-PaybackAssessmentUITests.debug(development).xcconfig"; path = "Target Support Files/Pods-PaybackAssessment-PaybackAssessmentUITests/Pods-PaybackAssessment-PaybackAssessmentUITests.debug(development).xcconfig"; sourceTree = "<group>"; };
+		D36F4954CA271A6D2506A275 /* Pods-PaybackAssessmentTests.debug(production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessmentTests.debug(production).xcconfig"; path = "Target Support Files/Pods-PaybackAssessmentTests/Pods-PaybackAssessmentTests.debug(production).xcconfig"; sourceTree = "<group>"; };
+		D3EB4EA998C53C1D2FCCE76B /* Pods-PaybackAssessment.debug(production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment.debug(production).xcconfig"; path = "Target Support Files/Pods-PaybackAssessment/Pods-PaybackAssessment.debug(production).xcconfig"; sourceTree = "<group>"; };
 		F046470CFE3D87D105B5C0A6 /* Pods_PaybackAssessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaybackAssessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC97FCC48DC2A5894CF2C3AE /* Pods-PaybackAssessment-PaybackAssessmentUITests.release(development).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment-PaybackAssessmentUITests.release(development).xcconfig"; path = "Target Support Files/Pods-PaybackAssessment-PaybackAssessmentUITests/Pods-PaybackAssessment-PaybackAssessmentUITests.release(development).xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -416,6 +472,7 @@
 		1173707A26664F3F002A5623 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				11C5894A266A03A700D401F9 /* ShopList */,
 				11AE0C792669FCE30061B12C /* ImageDetail */,
 				11D3D6E82667FE2300D77350 /* WebView */,
 				11209F0626676971005A7F29 /* Home */,
@@ -452,6 +509,7 @@
 		117370CB266659B6002A5623 /* CustomClasses */ = {
 			isa = PBXGroup;
 			children = (
+				11B35EBF266AA00800986345 /* KeyboardHandler */,
 				117370CC266659B6002A5623 /* TableView */,
 				117370D4266659B6002A5623 /* NavigationController */,
 			);
@@ -723,6 +781,72 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		11B35EBF266AA00800986345 /* KeyboardHandler */ = {
+			isa = PBXGroup;
+			children = (
+				11B35EC3266AA01700986345 /* KeyboardHandler.swift */,
+				11B35EC1266AA01700986345 /* KeyboardHandlerDelegate.swift */,
+				11B35EC2266AA01700986345 /* KeyboardHandlerViewController.swift */,
+				11B35EC0266AA01700986345 /* KeyboardInfo.swift */,
+			);
+			name = KeyboardHandler;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		11C5894A266A03A700D401F9 /* ShopList */ = {
+			isa = PBXGroup;
+			children = (
+				11C58952266A03B700D401F9 /* ShopListInteractor.swift */,
+				11C58953266A03B700D401F9 /* ShopListLogger.swift */,
+				11C58950266A03B700D401F9 /* ShopListModels.swift */,
+				11C5894C266A03B700D401F9 /* ShopListPresenter.swift */,
+				11C5894E266A03B700D401F9 /* ShopListRouter.swift */,
+				11C5896B266A03E300D401F9 /* DependencyContainer */,
+				11C5896A266A03C500D401F9 /* Service */,
+				11C58969266A03BA00D401F9 /* View */,
+			);
+			path = ShopList;
+			sourceTree = "<group>";
+		};
+		11C58969266A03BA00D401F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11C58951266A03B700D401F9 /* ShopListViewController.swift */,
+				11C58954266A03B700D401F9 /* ShopListViewController.xib */,
+				11CC56DA266A1547009A16BF /* TableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11C5896A266A03C500D401F9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				11C5894D266A03B700D401F9 /* ShopListWorker.swift */,
+				11C5894F266A03B700D401F9 /* ShopListEndpoint.swift */,
+				11C58955266A03B700D401F9 /* ShopListService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		11C5896B266A03E300D401F9 /* DependencyContainer */ = {
+			isa = PBXGroup;
+			children = (
+				11C5894B266A03B700D401F9 /* ShopListFactory.swift */,
+				11C58956266A03B700D401F9 /* ShopListDependencyContainer.swift */,
+			);
+			path = DependencyContainer;
+			sourceTree = "<group>";
+		};
+		11CC56DA266A1547009A16BF /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				11CC56DB266A1565009A16BF /* ShopListTableViewCell.swift */,
+				11CC56E5266A1577009A16BF /* ShopListItemViewModel.swift */,
+				11CC56DC266A1565009A16BF /* ShopListTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
 		11D3D6E82667FE2300D77350 /* WebView */ = {
 			isa = PBXGroup;
 			children = (
@@ -764,6 +888,24 @@
 				16C0ECC640185F43427A7F31 /* Pods-PaybackAssessment-PaybackAssessmentUITests.release.xcconfig */,
 				182C443224193C127A360D5A /* Pods-PaybackAssessmentTests.debug.xcconfig */,
 				67DDAD27A5A5DEDB4409194E /* Pods-PaybackAssessmentTests.release.xcconfig */,
+				774AAE83D4CD338C9221033F /* Pods-PaybackAssessment.debug(development).xcconfig */,
+				4794064C2C7058FBC5F48FE9 /* Pods-PaybackAssessment.release(production).xcconfig */,
+				41E5017776AA4ABA3B54A8DE /* Pods-PaybackAssessment.release(development).xcconfig */,
+				793867EC1AA1DE8AA0868449 /* Pods-PaybackAssessment.release(stage).xcconfig */,
+				D3EB4EA998C53C1D2FCCE76B /* Pods-PaybackAssessment.debug(production).xcconfig */,
+				9BA766761E9D69442109C8A7 /* Pods-PaybackAssessment.debug(stage).xcconfig */,
+				CBBCBF25714A5C62E64ED6F3 /* Pods-PaybackAssessment-PaybackAssessmentUITests.debug(development).xcconfig */,
+				75998D3A9B89E1D43DD07600 /* Pods-PaybackAssessment-PaybackAssessmentUITests.release(production).xcconfig */,
+				FC97FCC48DC2A5894CF2C3AE /* Pods-PaybackAssessment-PaybackAssessmentUITests.release(development).xcconfig */,
+				4713E9DAB525F1AA525147AE /* Pods-PaybackAssessment-PaybackAssessmentUITests.release(stage).xcconfig */,
+				54F7118F0EF4A30C79933538 /* Pods-PaybackAssessment-PaybackAssessmentUITests.debug(production).xcconfig */,
+				51A5E8ED39E950BEA8C39CDC /* Pods-PaybackAssessment-PaybackAssessmentUITests.debug(stage).xcconfig */,
+				760B6DB4E4BE1449778DCBDD /* Pods-PaybackAssessmentTests.debug(development).xcconfig */,
+				28D6AE38017D7DCD85C11A9C /* Pods-PaybackAssessmentTests.release(production).xcconfig */,
+				B697EB345E6132743D797D64 /* Pods-PaybackAssessmentTests.release(development).xcconfig */,
+				23C7AF89E026C863ACEFEC57 /* Pods-PaybackAssessmentTests.release(stage).xcconfig */,
+				D36F4954CA271A6D2506A275 /* Pods-PaybackAssessmentTests.debug(production).xcconfig */,
+				3E2285E86A6A7CD8BA4D30BB /* Pods-PaybackAssessmentTests.debug(stage).xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -894,6 +1036,8 @@
 				11631B4D2667BF290087D0BE /* ItemTableViewCell.xib in Resources */,
 				1173713B266659B6002A5623 /* ForceUpdateViewController.xib in Resources */,
 				11AE0CB42669FDCE0061B12C /* ImageDetailViewController.xib in Resources */,
+				11C58960266A03B700D401F9 /* ShopListViewController.xib in Resources */,
+				11CC56DE266A1565009A16BF /* ShopListTableViewCell.xib in Resources */,
 				1173703026664B19002A5623 /* LaunchScreen.storyboard in Resources */,
 				1173702D26664B19002A5623 /* Assets.xcassets in Resources */,
 				11209F192667697D005A7F29 /* HomeViewController.xib in Resources */,
@@ -1024,9 +1168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11C5895E266A03B700D401F9 /* ShopListInteractor.swift in Sources */,
 				1173714D266659B6002A5623 /* NetworkManager.swift in Sources */,
 				11737139266659B6002A5623 /* BackendError.swift in Sources */,
 				11737146266659B6002A5623 /* NetworkLoggerPlugin.swift in Sources */,
+				11C58962266A03B700D401F9 /* ShopListDependencyContainer.swift in Sources */,
 				11737123266659B6002A5623 /* TableViewDataSource.swift in Sources */,
 				11631B4E2667BF290087D0BE /* ItemTableViewCell.swift in Sources */,
 				11209F3226678468005A7F29 /* UserDefaultsExtension.swift in Sources */,
@@ -1043,6 +1189,7 @@
 				11737138266659B6002A5623 /* PayBackNetworkFactory.swift in Sources */,
 				1173712E266659B6002A5623 /* WindowManager.swift in Sources */,
 				1173714F266659B6002A5623 /* TokenProvider.swift in Sources */,
+				11C58958266A03B700D401F9 /* ShopListPresenter.swift in Sources */,
 				11209F1B2667697D005A7F29 /* HomeService.swift in Sources */,
 				1173702126664B15002A5623 /* AppDelegate.swift in Sources */,
 				11D3D6FA2667FE7900D77350 /* WebViewDependencyContainer.swift in Sources */,
@@ -1054,17 +1201,23 @@
 				11737122266659B6002A5623 /* TableView.swift in Sources */,
 				11737152266659B6002A5623 /* DateExtention.swift in Sources */,
 				11AE0CB32669FDCE0061B12C /* ImageDetailViewController.swift in Sources */,
+				11C58959266A03B700D401F9 /* ShopListWorker.swift in Sources */,
 				1173715C266659B6002A5623 /* UITapGestureRecognizerExtension.swift in Sources */,
 				1173713C266659B6002A5623 /* ForceUpdateViewController.swift in Sources */,
 				11D3D6F82667FE7900D77350 /* WebViewPresenter.swift in Sources */,
 				11737135266659B6002A5623 /* NetStatus.swift in Sources */,
 				11D3D6FC2667FE7900D77350 /* WebViewLogger.swift in Sources */,
+				11C58961266A03B700D401F9 /* ShopListService.swift in Sources */,
 				11737130266659B6002A5623 /* RTAChangeRootProtocol.swift in Sources */,
 				11737154266659B6002A5623 /* StringExtention.swift in Sources */,
+				11B35EC5266AA01700986345 /* KeyboardHandlerDelegate.swift in Sources */,
 				11737133266659B6002A5623 /* RTAChangeRootSegue.swift in Sources */,
+				11C5895F266A03B700D401F9 /* ShopListLogger.swift in Sources */,
 				1173715D266659B6002A5623 /* UIViewControllerExtention.swift in Sources */,
 				11209F182667697D005A7F29 /* HomeDependencyContainer.swift in Sources */,
 				11737137266659B6002A5623 /* NetworkNotifierProtocol.swift in Sources */,
+				11C5895A266A03B700D401F9 /* ShopListRouter.swift in Sources */,
+				11C5895D266A03B700D401F9 /* ShopListViewController.swift in Sources */,
 				11737148266659B6002A5623 /* CustomUrlEncoding.swift in Sources */,
 				11737136266659B6002A5623 /* NetworkStateNotifier.swift in Sources */,
 				11737127266659B6002A5623 /* CustomNavigationController.swift in Sources */,
@@ -1083,9 +1236,13 @@
 				11737156266659B6002A5623 /* UIViewExtention.swift in Sources */,
 				11209F1E2667697D005A7F29 /* HomeInteractor.swift in Sources */,
 				11737158266659B6002A5623 /* NibLoadableView.swift in Sources */,
+				11CC56E6266A1577009A16BF /* ShopListItemViewModel.swift in Sources */,
+				11C5895B266A03B700D401F9 /* ShopListEndpoint.swift in Sources */,
 				1173713D266659B6002A5623 /* ForceUpdateErrorHandler.swift in Sources */,
+				11B35EC4266AA01700986345 /* KeyboardInfo.swift in Sources */,
 				11737124266659B6002A5623 /* CellViewModel.swift in Sources */,
 				1173714C266659B6002A5623 /* NetworkManagerProtocol.swift in Sources */,
+				11C5895C266A03B700D401F9 /* ShopListModels.swift in Sources */,
 				11737141266659B6002A5623 /* NetworkErrors.swift in Sources */,
 				11737132266659B6002A5623 /* RTAChangeRootProtocolExtension.swift in Sources */,
 				11737126266659B6002A5623 /* EmptyListView.swift in Sources */,
@@ -1094,8 +1251,12 @@
 				11737145266659B6002A5623 /* AppInfoPlugin.swift in Sources */,
 				11209F142667697D005A7F29 /* HomeWorker.swift in Sources */,
 				11737128266659B6002A5623 /* DependencyContainer.swift in Sources */,
+				11B35EC7266AA01800986345 /* KeyboardHandler.swift in Sources */,
+				11B35EC6266AA01800986345 /* KeyboardHandlerViewController.swift in Sources */,
 				11737147266659B6002A5623 /* GeneralErrorHandlerPlugin.swift in Sources */,
 				1173715A266659B6002A5623 /* UIBezierPathExtension.swift in Sources */,
+				11CC56DD266A1565009A16BF /* ShopListTableViewCell.swift in Sources */,
+				11C58957266A03B700D401F9 /* ShopListFactory.swift in Sources */,
 				11737159266659B6002A5623 /* UIImageViewExtension.swift in Sources */,
 				11737142266659B6002A5623 /* Connectivity.swift in Sources */,
 				11AE0CC62669FE1C0061B12C /* ImageDetailLogger.swift in Sources */,
@@ -1159,8 +1320,9 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1173704826664B1A002A5623 /* Debug */ = {
+		1173704826664B1A002A5623 /* Debug(Development) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1173707226664EAB002A5623 /* Config-Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1218,10 +1380,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = "Debug(Development)";
 		};
-		1173704926664B1A002A5623 /* Release */ = {
+		1173704926664B1A002A5623 /* Debug(Stage) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1173707126664EAB002A5623 /* Config-Stage.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1273,11 +1436,11 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = "Debug(Stage)";
 		};
-		1173704B26664B1A002A5623 /* Debug */ = {
+		1173704B26664B1A002A5623 /* Debug(Development) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D719E6610B911F9D0DFD5D6 /* Pods-PaybackAssessment.debug.xcconfig */;
+			baseConfigurationReference = 774AAE83D4CD338C9221033F /* Pods-PaybackAssessment.debug(development).xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1294,11 +1457,11 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
-			name = Debug;
+			name = "Debug(Development)";
 		};
-		1173704C26664B1A002A5623 /* Release */ = {
+		1173704C26664B1A002A5623 /* Debug(Stage) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 173B832F28475D3CC4F60DA2 /* Pods-PaybackAssessment.release.xcconfig */;
+			baseConfigurationReference = 9BA766761E9D69442109C8A7 /* Pods-PaybackAssessment.debug(stage).xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1315,11 +1478,11 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
-			name = Release;
+			name = "Debug(Stage)";
 		};
-		1173704E26664B1A002A5623 /* Debug */ = {
+		1173704E26664B1A002A5623 /* Debug(Development) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 182C443224193C127A360D5A /* Pods-PaybackAssessmentTests.debug.xcconfig */;
+			baseConfigurationReference = 760B6DB4E4BE1449778DCBDD /* Pods-PaybackAssessmentTests.debug(development).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1337,11 +1500,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaybackAssessment.app/PaybackAssessment";
 			};
-			name = Debug;
+			name = "Debug(Development)";
 		};
-		1173704F26664B1A002A5623 /* Release */ = {
+		1173704F26664B1A002A5623 /* Debug(Stage) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67DDAD27A5A5DEDB4409194E /* Pods-PaybackAssessmentTests.release.xcconfig */;
+			baseConfigurationReference = 3E2285E86A6A7CD8BA4D30BB /* Pods-PaybackAssessmentTests.debug(stage).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1359,11 +1522,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaybackAssessment.app/PaybackAssessment";
 			};
-			name = Release;
+			name = "Debug(Stage)";
 		};
-		1173705126664B1A002A5623 /* Debug */ = {
+		1173705126664B1A002A5623 /* Debug(Development) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A3095F43D4923351B1E1050 /* Pods-PaybackAssessment-PaybackAssessmentUITests.debug.xcconfig */;
+			baseConfigurationReference = CBBCBF25714A5C62E64ED6F3 /* Pods-PaybackAssessment-PaybackAssessmentUITests.debug(development).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1380,11 +1543,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = PaybackAssessment;
 			};
-			name = Debug;
+			name = "Debug(Development)";
 		};
-		1173705226664B1A002A5623 /* Release */ = {
+		1173705226664B1A002A5623 /* Debug(Stage) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16C0ECC640185F43427A7F31 /* Pods-PaybackAssessment-PaybackAssessmentUITests.release.xcconfig */;
+			baseConfigurationReference = 51A5E8ED39E950BEA8C39CDC /* Pods-PaybackAssessment-PaybackAssessmentUITests.debug(stage).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1401,7 +1564,511 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = PaybackAssessment;
 			};
-			name = Release;
+			name = "Debug(Stage)";
+		};
+		11CC56EF266A7CC5009A16BF /* Debug(Production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1173707326664EAB002A5623 /* Config-Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug(Production)";
+		};
+		11CC56F0266A7CC5009A16BF /* Debug(Production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3EB4EA998C53C1D2FCCE76B /* Pods-PaybackAssessment.debug(production).xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN2PG7K999;
+				INFOPLIST_FILE = PaybackAssessment/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.PaybackAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Debug(Production)";
+		};
+		11CC56F1266A7CC5009A16BF /* Debug(Production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36F4954CA271A6D2506A275 /* Pods-PaybackAssessmentTests.debug(production).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaybackAssessmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.PaybackAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaybackAssessment.app/PaybackAssessment";
+			};
+			name = "Debug(Production)";
+		};
+		11CC56F2266A7CC5009A16BF /* Debug(Production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54F7118F0EF4A30C79933538 /* Pods-PaybackAssessment-PaybackAssessmentUITests.debug(production).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaybackAssessmentUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.PaybackAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaybackAssessment;
+			};
+			name = "Debug(Production)";
+		};
+		11CC56F3266A7CCF009A16BF /* Release(Stage) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1173707126664EAB002A5623 /* Config-Stage.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Release(Stage)";
+		};
+		11CC56F4266A7CCF009A16BF /* Release(Stage) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 793867EC1AA1DE8AA0868449 /* Pods-PaybackAssessment.release(stage).xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN2PG7K999;
+				INFOPLIST_FILE = PaybackAssessment/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.PaybackAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release(Stage)";
+		};
+		11CC56F5266A7CCF009A16BF /* Release(Stage) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23C7AF89E026C863ACEFEC57 /* Pods-PaybackAssessmentTests.release(stage).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaybackAssessmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.PaybackAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaybackAssessment.app/PaybackAssessment";
+			};
+			name = "Release(Stage)";
+		};
+		11CC56F6266A7CCF009A16BF /* Release(Stage) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4713E9DAB525F1AA525147AE /* Pods-PaybackAssessment-PaybackAssessmentUITests.release(stage).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaybackAssessmentUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.PaybackAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaybackAssessment;
+			};
+			name = "Release(Stage)";
+		};
+		11CC56F7266A7CDB009A16BF /* Release(Development) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1173707226664EAB002A5623 /* Config-Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Release(Development)";
+		};
+		11CC56F8266A7CDB009A16BF /* Release(Development) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41E5017776AA4ABA3B54A8DE /* Pods-PaybackAssessment.release(development).xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN2PG7K999;
+				INFOPLIST_FILE = PaybackAssessment/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.PaybackAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release(Development)";
+		};
+		11CC56F9266A7CDB009A16BF /* Release(Development) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B697EB345E6132743D797D64 /* Pods-PaybackAssessmentTests.release(development).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaybackAssessmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.PaybackAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaybackAssessment.app/PaybackAssessment";
+			};
+			name = "Release(Development)";
+		};
+		11CC56FA266A7CDB009A16BF /* Release(Development) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC97FCC48DC2A5894CF2C3AE /* Pods-PaybackAssessment-PaybackAssessmentUITests.release(development).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaybackAssessmentUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.PaybackAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaybackAssessment;
+			};
+			name = "Release(Development)";
+		};
+		11CC56FB266A7CE5009A16BF /* Release(Production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1173707326664EAB002A5623 /* Config-Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Release(Production)";
+		};
+		11CC56FC266A7CE5009A16BF /* Release(Production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4794064C2C7058FBC5F48FE9 /* Pods-PaybackAssessment.release(production).xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN2PG7K999;
+				INFOPLIST_FILE = PaybackAssessment/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.PaybackAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release(Production)";
+		};
+		11CC56FD266A7CE5009A16BF /* Release(Production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28D6AE38017D7DCD85C11A9C /* Pods-PaybackAssessmentTests.release(production).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaybackAssessmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.PaybackAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaybackAssessment.app/PaybackAssessment";
+			};
+			name = "Release(Production)";
+		};
+		11CC56FE266A7CE5009A16BF /* Release(Production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75998D3A9B89E1D43DD07600 /* Pods-PaybackAssessment-PaybackAssessmentUITests.release(production).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaybackAssessmentUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.PaybackAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaybackAssessment;
+			};
+			name = "Release(Production)";
 		};
 /* End XCBuildConfiguration section */
 
@@ -1409,38 +2076,54 @@
 		1173701826664B15002A5623 /* Build configuration list for PBXProject "PaybackAssessment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1173704826664B1A002A5623 /* Debug */,
-				1173704926664B1A002A5623 /* Release */,
+				1173704826664B1A002A5623 /* Debug(Development) */,
+				11CC56FB266A7CE5009A16BF /* Release(Production) */,
+				11CC56F7266A7CDB009A16BF /* Release(Development) */,
+				11CC56F3266A7CCF009A16BF /* Release(Stage) */,
+				11CC56EF266A7CC5009A16BF /* Debug(Production) */,
+				1173704926664B1A002A5623 /* Debug(Stage) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Debug(Development)";
 		};
 		1173704A26664B1A002A5623 /* Build configuration list for PBXNativeTarget "PaybackAssessment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1173704B26664B1A002A5623 /* Debug */,
-				1173704C26664B1A002A5623 /* Release */,
+				1173704B26664B1A002A5623 /* Debug(Development) */,
+				11CC56FC266A7CE5009A16BF /* Release(Production) */,
+				11CC56F8266A7CDB009A16BF /* Release(Development) */,
+				11CC56F4266A7CCF009A16BF /* Release(Stage) */,
+				11CC56F0266A7CC5009A16BF /* Debug(Production) */,
+				1173704C26664B1A002A5623 /* Debug(Stage) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Debug(Development)";
 		};
 		1173704D26664B1A002A5623 /* Build configuration list for PBXNativeTarget "PaybackAssessmentTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1173704E26664B1A002A5623 /* Debug */,
-				1173704F26664B1A002A5623 /* Release */,
+				1173704E26664B1A002A5623 /* Debug(Development) */,
+				11CC56FD266A7CE5009A16BF /* Release(Production) */,
+				11CC56F9266A7CDB009A16BF /* Release(Development) */,
+				11CC56F5266A7CCF009A16BF /* Release(Stage) */,
+				11CC56F1266A7CC5009A16BF /* Debug(Production) */,
+				1173704F26664B1A002A5623 /* Debug(Stage) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Debug(Development)";
 		};
 		1173705026664B1A002A5623 /* Build configuration list for PBXNativeTarget "PaybackAssessmentUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1173705126664B1A002A5623 /* Debug */,
-				1173705226664B1A002A5623 /* Release */,
+				1173705126664B1A002A5623 /* Debug(Development) */,
+				11CC56FE266A7CE5009A16BF /* Release(Production) */,
+				11CC56FA266A7CDB009A16BF /* Release(Development) */,
+				11CC56F6266A7CCF009A16BF /* Release(Stage) */,
+				11CC56F2266A7CC5009A16BF /* Debug(Production) */,
+				1173705226664B1A002A5623 /* Debug(Stage) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Debug(Development)";
 		};
 /* End XCConfigurationList section */
 

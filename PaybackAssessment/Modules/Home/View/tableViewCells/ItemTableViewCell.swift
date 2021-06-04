@@ -14,12 +14,12 @@ class ItemTableViewCell: UITableViewCell {
     // ===============
     @IBOutlet weak var headLineLabel: UILabel!
     @IBOutlet weak var sublineLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var patchImageView: UIImageView! {
         didSet {
             patchImageView.addCornerRadius(12)
         }
     }
-    
 }
 
 extension ItemTableViewCell: Binder {
@@ -35,10 +35,8 @@ private extension ItemTableViewCell {
     func setup(with model: Tile) {
         headLineLabel.text = model.headline
         sublineLabel.text = model.subline
-//        if let launchDate = model.dateLocal?.toDate(withFormat: "yyyy-MM-dd'T'HH:mm:ssZ").toString(withFormat: "yyyy-MM-dd") {
-//            launchDateLabel.text = "launch date: \(launchDate)"
-//        }
-//        setPathcImage(with: model.links?.patch?.small)
+        descriptionLabel.text = model.giveDescription()
+        patchImageView.image = model.giveImage()
     }
 }
 

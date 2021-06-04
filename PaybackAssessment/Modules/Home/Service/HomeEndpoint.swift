@@ -36,10 +36,10 @@ extension HomeEndpoint: RequestProtocol {
     }
     
     public var headers: [String: String]? {
-        return ["Content-Type": "application/json"]
+        return nil
     }
     
     var authorizationType: AuthType {
-        return .bearer
+        return .none
     }
 }

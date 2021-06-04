@@ -57,6 +57,7 @@ extension HomeInteractor {}
 // MARK: - Business Logics
 extension HomeInteractor: HomeBusinessLogic {
     func fetchData() {
+        presenter?.showLoading()
         worker?.getTails(params: TailParams())
             .done(refreshPage)
             .catch(presentError)

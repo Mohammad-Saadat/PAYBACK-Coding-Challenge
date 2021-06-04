@@ -36,7 +36,6 @@ class HomePresenter {
 // MARK: - Methods
 
 // MARK: Private
-// MARK: Private
 private extension HomePresenter {
     func guaranteeMainThread(_ work: @escaping (() -> Void)) {
         if Thread.isMainThread {
@@ -78,7 +77,8 @@ extension HomePresenter: HomePresentationLogic {
     }
     
     func presentData(response: Home.Item.Response) {
-        let viewModels = response.Tiles.compactMap { ItemCellViewModel(tile: $0) }
+        // sort in descending and create view model
+        let viewModels = response.Tiles.sorted(by: { ($0.score > $1.score) }).compactMap { ItemCellViewModel(tile: $0) }
         let section = DefaultSection(cells: viewModels)
         guaranteeMainThread {
             self.viewController?.displayData(viewModel: .init(sections: [section]))

@@ -58,6 +58,8 @@ extension HomeRouter: HomeRoutingLogic {
             guard let url = model.giveData() as? URL else { return }
             let avPlayerViewController = AVPlayerViewController()
             avPlayerViewController.player = AVPlayer(url: url)
+            avPlayerViewController.player?.playImmediately(atRate: 1.0)
+            avPlayerViewController.delegate = self
             viewController?.present(avPlayerViewController, animated: true, completion: nil)
         case .website:
             guard let url = model.giveData() as? URL else { return }
@@ -66,8 +68,15 @@ extension HomeRouter: HomeRoutingLogic {
                                                   url: url)
             viewController?.present(vc, animated: true, completion: nil)
         case .shoppingList:
-            // show list of shoping list
+            guard let tileId = model.id else { return }
+            let dc = ShopListDependencyContainer()
+            let vc = dc.makeShopListViewController(tileId: tileId)
+            viewController?.present(vc, animated: true, completion: nil)
             break
         }
     }
+}
+
+extension HomeRouter: AVPlayerViewControllerDelegate {
+    
 }

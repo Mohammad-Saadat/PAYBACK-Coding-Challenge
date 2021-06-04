@@ -114,6 +114,6 @@ extension Tile {
         self.data = remoteTile.data
         self.headline = remoteTile.headline
         self.subline = remoteTile.subline
-        self.score = "\(remoteTile.score ?? 0)"
+        self.score = Int64(remoteTile.score)
     }
 }
