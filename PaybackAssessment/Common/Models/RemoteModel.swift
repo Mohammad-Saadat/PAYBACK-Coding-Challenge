@@ -37,14 +37,19 @@ extension RemoteTile {
 extension Tile {
     func giveData() -> Any? {
         guard let data = self.data else { return nil }
-        guard let nameString = self.name else { return nil }
-        guard let name = Name(rawValue: nameString)  else { return nil }
+        guard let name = self.giveName() else { return nil }
         switch name {
         case .image, .video, .website:
             return URL(string: data)
         case .shoppingList:
             return data.components(separatedBy: ",")
         }
+    }
+    
+    func giveName() -> Name? {
+        guard let nameString = self.name else { return nil }
+        guard let name = Name(rawValue: nameString)  else { return nil }
+        return name
     }
 }
 
