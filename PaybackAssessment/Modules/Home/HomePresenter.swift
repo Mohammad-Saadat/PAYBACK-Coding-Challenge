@@ -9,7 +9,11 @@
 import UIKit
 
 protocol HomePresentationLogic {
-    //    func presentSomething(response: Home.Something.Response)
+    func presentError(response: Home.ErrorModel.Response)
+    func hidePullToRefresh()
+    func showLoading()
+    func hideLoading()
+    func presentData(response: Home.Item.Response)
 }
 
 class HomePresenter {
@@ -32,10 +36,52 @@ class HomePresenter {
 // MARK: - Methods
 
 // MARK: Private
-private extension HomePresenter {}
+// MARK: Private
+private extension HomePresenter {
+    func guaranteeMainThread(_ work: @escaping (() -> Void)) {
+        if Thread.isMainThread {
+            work()
+        } else {
+            DispatchQueue.main.async(execute: work)
+        }
+    }
+}
+
 
 // MARK: Public
 extension HomePresenter {}
 
 // MARK: - Presentation Logic
-extension HomePresenter: HomePresentationLogic {}
+extension HomePresenter: HomePresentationLogic {
+    func presentError(response: Home.ErrorModel.Response) {
+        guaranteeMainThread {
+            self.viewController?.displayError(viewModel: .init(error: response.error))
+        }
+    }
+    
+    func hidePullToRefresh() {
+        guaranteeMainThread {
+            self.viewController?.hidePullToRefresh()
+        }
+    }
+    
+    func showLoading() {
+        guaranteeMainThread {
+            self.viewController?.showLoading()
+        }
+    }
+    
+    func hideLoading() {
+        guaranteeMainThread {
+            self.viewController?.hideLoading()
+        }
+    }
+    
+    func presentData(response: Home.Item.Response) {
+        let viewModels = response.Tiles.compactMap { ItemCellViewModel(tile: $0) }
+        let section = DefaultSection(cells: viewModels)
+        guaranteeMainThread {
+            self.viewController?.displayData(viewModel: .init(sections: [section]))
+        }
+    }
+}

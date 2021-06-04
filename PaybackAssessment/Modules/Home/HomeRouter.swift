@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import AVKit
 
-@objc protocol HomeRoutingLogic {
-    //    func navigateToSomewhere()
+protocol HomeRoutingLogic {
+    func navigateToDetailViewController(model: Tile)
 }
 
 protocol HomeDataPassing {
@@ -45,4 +46,28 @@ extension HomeRouter {}
 // MARK: - Routin Logic
 extension HomeRouter: HomeRoutingLogic {
     // MARK: Navigation
+    func navigateToDetailViewController(model: Tile) {
+        guard let name = model.giveName() else { return }
+        switch name {
+        case .image:
+            guard let url = model.giveData() as? URL else { return }
+            let dc = ImageDetailDependencyContainer()
+            let vc = dc.makeImageDetailViewController(imageURL: url)
+            viewController?.present(vc, animated: true, completion: nil)
+        case .video:
+            guard let url = model.giveData() as? URL else { return }
+            let avPlayerViewController = AVPlayerViewController()
+            avPlayerViewController.player = AVPlayer(url: url)
+            viewController?.present(avPlayerViewController, animated: true, completion: nil)
+        case .website:
+            guard let url = model.giveData() as? URL else { return }
+            let dc = WebViewDependencyContainer()
+            let vc = dc.makeWebViewViewController(pageTitle: model.headline ?? "",
+                                                  url: url)
+            viewController?.present(vc, animated: true, completion: nil)
+        case .shoppingList:
+            // show list of shoping list
+            break
+        }
+    }
 }

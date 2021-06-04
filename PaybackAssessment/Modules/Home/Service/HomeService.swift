@@ -39,6 +39,10 @@ extension HomeService {
         }
         return getRemoteTiles(params: params).then(saveRemoteTiles)
     }
+    
+    func refreshTails(params: TailParams) -> Promise<[Tile]> {
+        return getRemoteTiles(params: params).then(saveRemoteTiles)
+    }
 }
 
 private extension HomeService {

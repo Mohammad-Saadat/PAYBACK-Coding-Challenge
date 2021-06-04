@@ -36,7 +36,20 @@ class HomeInteractor: HomeDataStore {
 // MARK: - Methods
 
 // MARK: Private
-private extension HomeInteractor {}
+private extension HomeInteractor {
+    func refreshPage(tiles: [Tile]) {
+        self.presenter?.presentData(response: .init(Tiles: tiles))
+    }
+    
+    func presentError(_ error: Error) {
+        self.presenter?.presentError(response: .init(error: error))
+    }
+    
+    func hideLoadings() {
+        self.presenter?.hideLoading()
+        self.presenter?.hidePullToRefresh()
+    }
+}
 
 // MARK: Public
 extension HomeInteractor {}
@@ -44,10 +57,16 @@ extension HomeInteractor {}
 // MARK: - Business Logics
 extension HomeInteractor: HomeBusinessLogic {
     func fetchData() {
-        
+        worker?.getTails(params: TailParams())
+            .done(refreshPage)
+            .catch(presentError)
+            .finally(hideLoadings)
     }
     
     func refreshPage() {
-        
+        worker?.refreshTails(params: TailParams())
+            .done(refreshPage)
+            .catch(presentError)
+            .finally(hideLoadings)
     }
 }

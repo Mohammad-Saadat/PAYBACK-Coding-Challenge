@@ -56,11 +56,10 @@ class HomeViewController: UIViewController {
     // MARK: - Outlets
     @IBOutlet weak var tableView: DefaultTableView! {
         didSet {
-//            tableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 85, right: 0)
             tableView.didSelectTableView = { [weak self] (cellViewModel, _) in
-//                guard let cellViewModel = cellViewModel as? ItemCellViewModel,
-//                      let model = cellViewModel.getModel() as? LaunchData else { return }
-//                self?.router?.navigateToDetailViewController(launchId: model.id)
+                guard let cellViewModel = cellViewModel as? ItemCellViewModel,
+                      let model = cellViewModel.getModel() as? Tile else { return }
+                self?.router?.navigateToDetailViewController(model: model)
             }
         }
     }
@@ -74,7 +73,7 @@ extension HomeViewController {
         super.viewDidLoad()
         
         factory.setup(viewController: self)
-//        interactor?.fetchData()
+        interactor?.fetchData()
     }
 }
 
@@ -85,7 +84,7 @@ private extension HomeViewController {
     // Setup
     @objc func refreshPage() {
         self.pullToRefresh.beginRefreshing()
-//        interactor?.refreshPage()
+        interactor?.refreshPage()
     }
 }
 
@@ -99,7 +98,9 @@ extension HomeViewController: HomeDisplayLogic {
         presentMessege(title: "Error",
                        message: viewModel.error.localizedDescription,
                        additionalActions: action,
-                       preferredStyle: .alert)
+                       preferredStyle: .alert) { [weak self] _ in
+            self?.interactor?.refreshPage()
+        }
     }
     
     func hidePullToRefresh() {

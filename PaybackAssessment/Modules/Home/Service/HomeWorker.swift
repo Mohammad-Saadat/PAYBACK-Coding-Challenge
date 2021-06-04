@@ -11,6 +11,7 @@ import PromiseKit
 
 protocol HomeWorkerLogic {
     func getTails(params: TailParams) -> Promise<[Tile]>
+    func refreshTails(params: TailParams) -> Promise<[Tile]>
 }
 
 class HomeWorker {
@@ -39,6 +40,10 @@ private extension HomeWorker {}
 // MARK: - Worker Logic
 extension HomeWorker: HomeWorkerLogic {
     func getTails(params: TailParams) -> Promise<[Tile]> {
-        return service.getTails(params: params)
+        service.getTails(params: params)
+    }
+    
+    func refreshTails(params: TailParams) -> Promise<[Tile]> {
+        service.refreshTails(params: params)
     }
 }
