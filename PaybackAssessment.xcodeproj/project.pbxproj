@@ -22,6 +22,9 @@
 		11209F1E2667697D005A7F29 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11209F122667697D005A7F29 /* HomeInteractor.swift */; };
 		11209F3226678468005A7F29 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11209F3126678468005A7F29 /* UserDefaultsExtension.swift */; };
 		115C9B762666A88300CB572C /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C9B752666A88300CB572C /* DataBaseManager.swift */; };
+		11631B4D2667BF290087D0BE /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11631B4B2667BF290087D0BE /* ItemTableViewCell.xib */; };
+		11631B4E2667BF290087D0BE /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11631B4C2667BF290087D0BE /* ItemTableViewCell.swift */; };
+		11631B532667BF320087D0BE /* ItemCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11631B522667BF320087D0BE /* ItemCellViewModel.swift */; };
 		1173702126664B15002A5623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173702026664B15002A5623 /* AppDelegate.swift */; };
 		1173702B26664B16002A5623 /* PaybackAssessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1173702926664B16002A5623 /* PaybackAssessment.xcdatamodeld */; };
 		1173702D26664B19002A5623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1173702C26664B19002A5623 /* Assets.xcassets */; };
@@ -93,6 +96,20 @@
 		1173715C266659B6002A5623 /* UITapGestureRecognizerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173711E266659B6002A5623 /* UITapGestureRecognizerExtension.swift */; };
 		1173715D266659B6002A5623 /* UIViewControllerExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173711F266659B6002A5623 /* UIViewControllerExtention.swift */; };
 		11A3931726679DF3007B8EC5 /* TailParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3931626679DF3007B8EC5 /* TailParams.swift */; };
+		11AE0CB32669FDCE0061B12C /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE0CB12669FDCE0061B12C /* ImageDetailViewController.swift */; };
+		11AE0CB42669FDCE0061B12C /* ImageDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11AE0CB22669FDCE0061B12C /* ImageDetailViewController.xib */; };
+		11AE0CBC2669FDFE0061B12C /* ImageDetailDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE0CBB2669FDFE0061B12C /* ImageDetailDependencyContainer.swift */; };
+		11AE0CC12669FE0A0061B12C /* ImageDetailFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE0CC02669FE0A0061B12C /* ImageDetailFactory.swift */; };
+		11AE0CC62669FE1C0061B12C /* ImageDetailLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE0CC52669FE1C0061B12C /* ImageDetailLogger.swift */; };
+		11D3D6F32667FE7900D77350 /* WebViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D3D6E92667FE7900D77350 /* WebViewFactory.swift */; };
+		11D3D6F52667FE7900D77350 /* WebViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D3D6EB2667FE7900D77350 /* WebViewModels.swift */; };
+		11D3D6F62667FE7900D77350 /* WebViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D3D6EC2667FE7900D77350 /* WebViewInteractor.swift */; };
+		11D3D6F72667FE7900D77350 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D3D6ED2667FE7900D77350 /* WebViewViewController.swift */; };
+		11D3D6F82667FE7900D77350 /* WebViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D3D6EE2667FE7900D77350 /* WebViewPresenter.swift */; };
+		11D3D6F92667FE7900D77350 /* WebViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D3D6EF2667FE7900D77350 /* WebViewRouter.swift */; };
+		11D3D6FA2667FE7900D77350 /* WebViewDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D3D6F02667FE7900D77350 /* WebViewDependencyContainer.swift */; };
+		11D3D6FB2667FE7900D77350 /* WebViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11D3D6F12667FE7900D77350 /* WebViewViewController.xib */; };
+		11D3D6FC2667FE7900D77350 /* WebViewLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D3D6F22667FE7900D77350 /* WebViewLogger.swift */; };
 		228D1EA28C444410FAF893EA /* Pods_PaybackAssessmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4A206ECC7A6475BF4BE143 /* Pods_PaybackAssessmentTests.framework */; };
 		F24105994374EA414B48C042 /* Pods_PaybackAssessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F046470CFE3D87D105B5C0A6 /* Pods_PaybackAssessment.framework */; };
 /* End PBXBuildFile section */
@@ -130,6 +147,9 @@
 		11209F122667697D005A7F29 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		11209F3126678468005A7F29 /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
 		115C9B752666A88300CB572C /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		11631B4B2667BF290087D0BE /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		11631B4C2667BF290087D0BE /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		11631B522667BF320087D0BE /* ItemCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCellViewModel.swift; sourceTree = "<group>"; };
 		1173701D26664B15002A5623 /* PaybackAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaybackAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1173702026664B15002A5623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1173702A26664B16002A5623 /* PaybackAssessment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PaybackAssessment.xcdatamodel; sourceTree = "<group>"; };
@@ -207,6 +227,20 @@
 		1173711E266659B6002A5623 /* UITapGestureRecognizerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITapGestureRecognizerExtension.swift; sourceTree = "<group>"; };
 		1173711F266659B6002A5623 /* UIViewControllerExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtention.swift; sourceTree = "<group>"; };
 		11A3931626679DF3007B8EC5 /* TailParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TailParams.swift; sourceTree = "<group>"; };
+		11AE0CB12669FDCE0061B12C /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		11AE0CB22669FDCE0061B12C /* ImageDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageDetailViewController.xib; sourceTree = "<group>"; };
+		11AE0CBB2669FDFE0061B12C /* ImageDetailDependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailDependencyContainer.swift; sourceTree = "<group>"; };
+		11AE0CC02669FE0A0061B12C /* ImageDetailFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailFactory.swift; sourceTree = "<group>"; };
+		11AE0CC52669FE1C0061B12C /* ImageDetailLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailLogger.swift; sourceTree = "<group>"; };
+		11D3D6E92667FE7900D77350 /* WebViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewFactory.swift; sourceTree = "<group>"; };
+		11D3D6EB2667FE7900D77350 /* WebViewModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewModels.swift; sourceTree = "<group>"; };
+		11D3D6EC2667FE7900D77350 /* WebViewInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewInteractor.swift; sourceTree = "<group>"; };
+		11D3D6ED2667FE7900D77350 /* WebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		11D3D6EE2667FE7900D77350 /* WebViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewPresenter.swift; sourceTree = "<group>"; };
+		11D3D6EF2667FE7900D77350 /* WebViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewRouter.swift; sourceTree = "<group>"; };
+		11D3D6F02667FE7900D77350 /* WebViewDependencyContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewDependencyContainer.swift; sourceTree = "<group>"; };
+		11D3D6F12667FE7900D77350 /* WebViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewViewController.xib; sourceTree = "<group>"; };
+		11D3D6F22667FE7900D77350 /* WebViewLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewLogger.swift; sourceTree = "<group>"; };
 		16C0ECC640185F43427A7F31 /* Pods-PaybackAssessment-PaybackAssessmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment-PaybackAssessmentUITests.release.xcconfig"; path = "Target Support Files/Pods-PaybackAssessment-PaybackAssessmentUITests/Pods-PaybackAssessment-PaybackAssessmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		173B832F28475D3CC4F60DA2 /* Pods-PaybackAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment.release.xcconfig"; path = "Target Support Files/Pods-PaybackAssessment/Pods-PaybackAssessment.release.xcconfig"; sourceTree = "<group>"; };
 		182C443224193C127A360D5A /* Pods-PaybackAssessmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessmentTests.debug.xcconfig"; path = "Target Support Files/Pods-PaybackAssessmentTests/Pods-PaybackAssessmentTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -263,8 +297,9 @@
 		11209F28266771BD005A7F29 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				11209F0D2667697D005A7F29 /* HomeViewController.xib */,
 				11209F102667697D005A7F29 /* HomeViewController.swift */,
+				11209F0D2667697D005A7F29 /* HomeViewController.xib */,
+				11631B3F2667BF090087D0BE /* tableViewCells */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -294,6 +329,16 @@
 				115C9B752666A88300CB572C /* DataBaseManager.swift */,
 			);
 			path = DataBaseManager;
+			sourceTree = "<group>";
+		};
+		11631B3F2667BF090087D0BE /* tableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				11631B4B2667BF290087D0BE /* ItemTableViewCell.xib */,
+				11631B4C2667BF290087D0BE /* ItemTableViewCell.swift */,
+				11631B522667BF320087D0BE /* ItemCellViewModel.swift */,
+			);
+			path = tableViewCells;
 			sourceTree = "<group>";
 		};
 		1173701426664B15002A5623 = {
@@ -371,6 +416,8 @@
 		1173707A26664F3F002A5623 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				11AE0C792669FCE30061B12C /* ImageDetail */,
+				11D3D6E82667FE2300D77350 /* WebView */,
 				11209F0626676971005A7F29 /* Home */,
 			);
 			path = Modules;
@@ -648,6 +695,66 @@
 			path = UIKit;
 			sourceTree = "<group>";
 		};
+		11AE0C792669FCE30061B12C /* ImageDetail */ = {
+			isa = PBXGroup;
+			children = (
+				11AE0CC52669FE1C0061B12C /* ImageDetailLogger.swift */,
+				11AE0CCD2669FFA10061B12C /* DependencyContainer */,
+				11AE0CCE2669FFB00061B12C /* View */,
+			);
+			path = ImageDetail;
+			sourceTree = "<group>";
+		};
+		11AE0CCD2669FFA10061B12C /* DependencyContainer */ = {
+			isa = PBXGroup;
+			children = (
+				11AE0CBB2669FDFE0061B12C /* ImageDetailDependencyContainer.swift */,
+				11AE0CC02669FE0A0061B12C /* ImageDetailFactory.swift */,
+			);
+			path = DependencyContainer;
+			sourceTree = "<group>";
+		};
+		11AE0CCE2669FFB00061B12C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11AE0CB12669FDCE0061B12C /* ImageDetailViewController.swift */,
+				11AE0CB22669FDCE0061B12C /* ImageDetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11D3D6E82667FE2300D77350 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				11D3D6EC2667FE7900D77350 /* WebViewInteractor.swift */,
+				11D3D6F22667FE7900D77350 /* WebViewLogger.swift */,
+				11D3D6EB2667FE7900D77350 /* WebViewModels.swift */,
+				11D3D6EE2667FE7900D77350 /* WebViewPresenter.swift */,
+				11D3D6EF2667FE7900D77350 /* WebViewRouter.swift */,
+				11D3D7002667FE7E00D77350 /* DependencyContainer */,
+				11D3D7042667FE9000D77350 /* View */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		11D3D7002667FE7E00D77350 /* DependencyContainer */ = {
+			isa = PBXGroup;
+			children = (
+				11D3D6F02667FE7900D77350 /* WebViewDependencyContainer.swift */,
+				11D3D6E92667FE7900D77350 /* WebViewFactory.swift */,
+			);
+			path = DependencyContainer;
+			sourceTree = "<group>";
+		};
+		11D3D7042667FE9000D77350 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11D3D6ED2667FE7900D77350 /* WebViewViewController.swift */,
+				11D3D6F12667FE7900D77350 /* WebViewViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B04EFBB3ECE08E00D39242D8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -779,11 +886,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11D3D6FB2667FE7900D77350 /* WebViewViewController.xib in Resources */,
 				1173707626664EAB002A5623 /* Config-Production.xcconfig in Resources */,
 				1173707526664EAB002A5623 /* Config-Development.xcconfig in Resources */,
 				11737125266659B6002A5623 /* EmptyListView.xib in Resources */,
 				1173707426664EAB002A5623 /* Config-Stage.xcconfig in Resources */,
+				11631B4D2667BF290087D0BE /* ItemTableViewCell.xib in Resources */,
 				1173713B266659B6002A5623 /* ForceUpdateViewController.xib in Resources */,
+				11AE0CB42669FDCE0061B12C /* ImageDetailViewController.xib in Resources */,
 				1173703026664B19002A5623 /* LaunchScreen.storyboard in Resources */,
 				1173702D26664B19002A5623 /* Assets.xcassets in Resources */,
 				11209F192667697D005A7F29 /* HomeViewController.xib in Resources */,
@@ -918,6 +1028,7 @@
 				11737139266659B6002A5623 /* BackendError.swift in Sources */,
 				11737146266659B6002A5623 /* NetworkLoggerPlugin.swift in Sources */,
 				11737123266659B6002A5623 /* TableViewDataSource.swift in Sources */,
+				11631B4E2667BF290087D0BE /* ItemTableViewCell.swift in Sources */,
 				11209F3226678468005A7F29 /* UserDefaultsExtension.swift in Sources */,
 				1173715B266659B6002A5623 /* UIAlertController.swift in Sources */,
 				1173713E266659B6002A5623 /* ForceUpdateRouter.swift in Sources */,
@@ -925,21 +1036,29 @@
 				11737143266659B6002A5623 /* CustomMoyaProvider.swift in Sources */,
 				115C9B762666A88300CB572C /* DataBaseManager.swift in Sources */,
 				1173713F266659B6002A5623 /* UnAuthorizedErrorHandler.swift in Sources */,
+				11D3D6F92667FE7900D77350 /* WebViewRouter.swift in Sources */,
+				11D3D6F62667FE7900D77350 /* WebViewInteractor.swift in Sources */,
+				11631B532667BF320087D0BE /* ItemCellViewModel.swift in Sources */,
 				11209F162667697D005A7F29 /* HomeModels.swift in Sources */,
 				11737138266659B6002A5623 /* PayBackNetworkFactory.swift in Sources */,
 				1173712E266659B6002A5623 /* WindowManager.swift in Sources */,
 				1173714F266659B6002A5623 /* TokenProvider.swift in Sources */,
 				11209F1B2667697D005A7F29 /* HomeService.swift in Sources */,
 				1173702126664B15002A5623 /* AppDelegate.swift in Sources */,
+				11D3D6FA2667FE7900D77350 /* WebViewDependencyContainer.swift in Sources */,
 				11737157266659B6002A5623 /* UIColorExtention.swift in Sources */,
 				1173712F266659B6002A5623 /* UIWindow+ChangeRoot.swift in Sources */,
 				11209F132667697D005A7F29 /* HomeRouter.swift in Sources */,
 				11A3931726679DF3007B8EC5 /* TailParams.swift in Sources */,
+				11D3D6F72667FE7900D77350 /* WebViewViewController.swift in Sources */,
 				11737122266659B6002A5623 /* TableView.swift in Sources */,
 				11737152266659B6002A5623 /* DateExtention.swift in Sources */,
+				11AE0CB32669FDCE0061B12C /* ImageDetailViewController.swift in Sources */,
 				1173715C266659B6002A5623 /* UITapGestureRecognizerExtension.swift in Sources */,
 				1173713C266659B6002A5623 /* ForceUpdateViewController.swift in Sources */,
+				11D3D6F82667FE7900D77350 /* WebViewPresenter.swift in Sources */,
 				11737135266659B6002A5623 /* NetStatus.swift in Sources */,
+				11D3D6FC2667FE7900D77350 /* WebViewLogger.swift in Sources */,
 				11737130266659B6002A5623 /* RTAChangeRootProtocol.swift in Sources */,
 				11737154266659B6002A5623 /* StringExtention.swift in Sources */,
 				11737133266659B6002A5623 /* RTAChangeRootSegue.swift in Sources */,
@@ -954,9 +1073,12 @@
 				1173712C266659B6002A5623 /* ActivityIndicator.swift in Sources */,
 				11209F1D2667697D005A7F29 /* HomeLogger.swift in Sources */,
 				11737150266659B6002A5623 /* JSONDecoderExtension.swift in Sources */,
+				11AE0CC12669FE0A0061B12C /* ImageDetailFactory.swift in Sources */,
 				11737140266659B6002A5623 /* GeneralErrors.swift in Sources */,
+				11D3D6F52667FE7900D77350 /* WebViewModels.swift in Sources */,
 				1173712B266659B6002A5623 /* ViewStateManager.swift in Sources */,
 				11209F172667697D005A7F29 /* HomeEndpoint.swift in Sources */,
+				11AE0CBC2669FDFE0061B12C /* ImageDetailDependencyContainer.swift in Sources */,
 				11209F152667697D005A7F29 /* HomeFactory.swift in Sources */,
 				11737156266659B6002A5623 /* UIViewExtention.swift in Sources */,
 				11209F1E2667697D005A7F29 /* HomeInteractor.swift in Sources */,
@@ -976,6 +1098,7 @@
 				1173715A266659B6002A5623 /* UIBezierPathExtension.swift in Sources */,
 				11737159266659B6002A5623 /* UIImageViewExtension.swift in Sources */,
 				11737142266659B6002A5623 /* Connectivity.swift in Sources */,
+				11AE0CC62669FE1C0061B12C /* ImageDetailLogger.swift in Sources */,
 				11737151266659B6002A5623 /* JSONEncoderExtension.swift in Sources */,
 				11209F1C2667697D005A7F29 /* HomeViewController.swift in Sources */,
 				1173714E266659B6002A5623 /* RequestProtocol.swift in Sources */,
@@ -988,6 +1111,7 @@
 				11737121266659B6002A5623 /* SectionViewModel.swift in Sources */,
 				11737155266659B6002A5623 /* CALayerExtension.swift in Sources */,
 				11737131266659B6002A5623 /* RTAChangeRootTransitionStyle.swift in Sources */,
+				11D3D6F32667FE7900D77350 /* WebViewFactory.swift in Sources */,
 				1173702B26664B16002A5623 /* PaybackAssessment.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
