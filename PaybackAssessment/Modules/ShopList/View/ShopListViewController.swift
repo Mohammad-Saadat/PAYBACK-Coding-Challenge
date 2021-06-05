@@ -43,6 +43,13 @@ class ShopListViewController: KeyboardHandlerViewController {
     var interactor: ShopListBusinessLogic?
     var router: (NSObjectProtocol & ShopListRoutingLogic & ShopListDataPassing)?
     
+    lazy var rightButton: UIButton = {
+        let button = UIButton(type: .custom)
+        button.setImage(#imageLiteral(resourceName: "plus"), for: .normal)
+        button.addTarget(self, action: #selector(self.plusButtonTapped), for: .touchUpInside)
+        return button
+    }()
+    
     // MARK: - Outlets
     
     @IBOutlet weak var tableView: DefaultTableView!
@@ -73,22 +80,19 @@ extension ShopListViewController {
 private extension ShopListViewController {
     // Setup
     func addRightButton() {
-        let button = UIButton(type: .custom)
-        button.setImage(#imageLiteral(resourceName: "plus"), for: .normal)
-        button.addTarget(self, action: #selector(self.plusButtonTapped), for: .touchUpInside)
-        itemTextField.rightView = button
+        itemTextField.rightView = rightButton
         itemTextField.rightViewMode = .always
     }
-    
+}
+
+// MARK: Public
+extension ShopListViewController {
     @objc func plusButtonTapped() {
         guard let itemText = self.itemTextField.text, !itemText.isEmpty else { return }
         itemTextField.text = ""
         interactor?.addToShopList(request: .init(item: itemText))
     }
 }
-
-// MARK: Public
-extension ShopListViewController {}
 
 // MARK: - Display Logic
 extension ShopListViewController: ShopListDisplayLogic {

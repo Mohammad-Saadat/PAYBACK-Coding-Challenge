@@ -29,7 +29,6 @@
 		1173702B26664B16002A5623 /* PaybackAssessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1173702926664B16002A5623 /* PaybackAssessment.xcdatamodeld */; };
 		1173702D26664B19002A5623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1173702C26664B19002A5623 /* Assets.xcassets */; };
 		1173703026664B19002A5623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1173702E26664B19002A5623 /* LaunchScreen.storyboard */; };
-		1173703B26664B1A002A5623 /* PaybackAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173703A26664B1A002A5623 /* PaybackAssessmentTests.swift */; };
 		1173704626664B1A002A5623 /* PaybackAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173704526664B1A002A5623 /* PaybackAssessmentUITests.swift */; };
 		1173707426664EAB002A5623 /* Config-Stage.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1173707126664EAB002A5623 /* Config-Stage.xcconfig */; };
 		1173707526664EAB002A5623 /* Config-Development.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1173707226664EAB002A5623 /* Config-Development.xcconfig */; };
@@ -105,6 +104,7 @@
 		11B35EC5266AA01700986345 /* KeyboardHandlerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B35EC1266AA01700986345 /* KeyboardHandlerDelegate.swift */; };
 		11B35EC6266AA01800986345 /* KeyboardHandlerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B35EC2266AA01700986345 /* KeyboardHandlerViewController.swift */; };
 		11B35EC7266AA01800986345 /* KeyboardHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B35EC3266AA01700986345 /* KeyboardHandler.swift */; };
+		11B35EDB266AC8E900986345 /* HomeViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B35EDA266AC8E900986345 /* HomeViewControllerTest.swift */; };
 		11C58957266A03B700D401F9 /* ShopListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5894B266A03B700D401F9 /* ShopListFactory.swift */; };
 		11C58958266A03B700D401F9 /* ShopListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5894C266A03B700D401F9 /* ShopListPresenter.swift */; };
 		11C58959266A03B700D401F9 /* ShopListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5894D266A03B700D401F9 /* ShopListWorker.swift */; };
@@ -129,6 +129,11 @@
 		11D3D6FA2667FE7900D77350 /* WebViewDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D3D6F02667FE7900D77350 /* WebViewDependencyContainer.swift */; };
 		11D3D6FB2667FE7900D77350 /* WebViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11D3D6F12667FE7900D77350 /* WebViewViewController.xib */; };
 		11D3D6FC2667FE7900D77350 /* WebViewLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D3D6F22667FE7900D77350 /* WebViewLogger.swift */; };
+		11E4CDD8266B416E0021B0C4 /* HomeIntercatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4CDD7266B416E0021B0C4 /* HomeIntercatorTest.swift */; };
+		11E4CDE0266B45450021B0C4 /* HomePresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4CDDF266B45450021B0C4 /* HomePresenterTest.swift */; };
+		11E4CDE7266B49980021B0C4 /* ShopListViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4CDE6266B49980021B0C4 /* ShopListViewControllerTest.swift */; };
+		11E4CDEC266B4CB90021B0C4 /* ShopListInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4CDEB266B4CB90021B0C4 /* ShopListInteractorTest.swift */; };
+		11E4CDF4266B585B0021B0C4 /* ShopListPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4CDF3266B585B0021B0C4 /* ShopListPresenterTest.swift */; };
 		228D1EA28C444410FAF893EA /* Pods_PaybackAssessmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4A206ECC7A6475BF4BE143 /* Pods_PaybackAssessmentTests.framework */; };
 		F24105994374EA414B48C042 /* Pods_PaybackAssessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F046470CFE3D87D105B5C0A6 /* Pods_PaybackAssessment.framework */; };
 /* End PBXBuildFile section */
@@ -176,7 +181,6 @@
 		1173702F26664B19002A5623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1173703126664B19002A5623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1173703626664B1A002A5623 /* PaybackAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaybackAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1173703A26664B1A002A5623 /* PaybackAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaybackAssessmentTests.swift; sourceTree = "<group>"; };
 		1173703C26664B1A002A5623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1173704126664B1A002A5623 /* PaybackAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaybackAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1173704526664B1A002A5623 /* PaybackAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaybackAssessmentUITests.swift; sourceTree = "<group>"; };
@@ -255,6 +259,7 @@
 		11B35EC1266AA01700986345 /* KeyboardHandlerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardHandlerDelegate.swift; sourceTree = "<group>"; };
 		11B35EC2266AA01700986345 /* KeyboardHandlerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardHandlerViewController.swift; sourceTree = "<group>"; };
 		11B35EC3266AA01700986345 /* KeyboardHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardHandler.swift; sourceTree = "<group>"; };
+		11B35EDA266AC8E900986345 /* HomeViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTest.swift; sourceTree = "<group>"; };
 		11C5894B266A03B700D401F9 /* ShopListFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListFactory.swift; sourceTree = "<group>"; };
 		11C5894C266A03B700D401F9 /* ShopListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListPresenter.swift; sourceTree = "<group>"; };
 		11C5894D266A03B700D401F9 /* ShopListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListWorker.swift; sourceTree = "<group>"; };
@@ -279,6 +284,11 @@
 		11D3D6F02667FE7900D77350 /* WebViewDependencyContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewDependencyContainer.swift; sourceTree = "<group>"; };
 		11D3D6F12667FE7900D77350 /* WebViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewViewController.xib; sourceTree = "<group>"; };
 		11D3D6F22667FE7900D77350 /* WebViewLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewLogger.swift; sourceTree = "<group>"; };
+		11E4CDD7266B416E0021B0C4 /* HomeIntercatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeIntercatorTest.swift; sourceTree = "<group>"; };
+		11E4CDDF266B45450021B0C4 /* HomePresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenterTest.swift; sourceTree = "<group>"; };
+		11E4CDE6266B49980021B0C4 /* ShopListViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListViewControllerTest.swift; sourceTree = "<group>"; };
+		11E4CDEB266B4CB90021B0C4 /* ShopListInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListInteractorTest.swift; sourceTree = "<group>"; };
+		11E4CDF3266B585B0021B0C4 /* ShopListPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListPresenterTest.swift; sourceTree = "<group>"; };
 		16C0ECC640185F43427A7F31 /* Pods-PaybackAssessment-PaybackAssessmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment-PaybackAssessmentUITests.release.xcconfig"; path = "Target Support Files/Pods-PaybackAssessment-PaybackAssessmentUITests/Pods-PaybackAssessment-PaybackAssessmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		173B832F28475D3CC4F60DA2 /* Pods-PaybackAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessment.release.xcconfig"; path = "Target Support Files/Pods-PaybackAssessment/Pods-PaybackAssessment.release.xcconfig"; sourceTree = "<group>"; };
 		182C443224193C127A360D5A /* Pods-PaybackAssessmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaybackAssessmentTests.debug.xcconfig"; path = "Target Support Files/Pods-PaybackAssessmentTests/Pods-PaybackAssessmentTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -432,7 +442,7 @@
 		1173703926664B1A002A5623 /* PaybackAssessmentTests */ = {
 			isa = PBXGroup;
 			children = (
-				1173703A26664B1A002A5623 /* PaybackAssessmentTests.swift */,
+				11E4CDE4266B496F0021B0C4 /* Modules */,
 				1173703C26664B1A002A5623 /* Info.plist */,
 			);
 			path = PaybackAssessmentTests;
@@ -793,6 +803,16 @@
 			path = "New Group";
 			sourceTree = "<group>";
 		};
+		11B35ED6266AC8D800986345 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				11B35EDA266AC8E900986345 /* HomeViewControllerTest.swift */,
+				11E4CDD7266B416E0021B0C4 /* HomeIntercatorTest.swift */,
+				11E4CDDF266B45450021B0C4 /* HomePresenterTest.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		11C5894A266A03A700D401F9 /* ShopList */ = {
 			isa = PBXGroup;
 			children = (
@@ -877,6 +897,25 @@
 				11D3D6F12667FE7900D77350 /* WebViewViewController.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		11E4CDE4266B496F0021B0C4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				11B35ED6266AC8D800986345 /* Home */,
+				11E4CDE5266B49770021B0C4 /* ShopList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		11E4CDE5266B49770021B0C4 /* ShopList */ = {
+			isa = PBXGroup;
+			children = (
+				11E4CDE6266B49980021B0C4 /* ShopListViewControllerTest.swift */,
+				11E4CDEB266B4CB90021B0C4 /* ShopListInteractorTest.swift */,
+				11E4CDF3266B585B0021B0C4 /* ShopListPresenterTest.swift */,
+			);
+			path = ShopList;
 			sourceTree = "<group>";
 		};
 		B04EFBB3ECE08E00D39242D8 /* Pods */ = {
@@ -1281,7 +1320,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1173703B26664B1A002A5623 /* PaybackAssessmentTests.swift in Sources */,
+				11E4CDE7266B49980021B0C4 /* ShopListViewControllerTest.swift in Sources */,
+				11E4CDE0266B45450021B0C4 /* HomePresenterTest.swift in Sources */,
+				11E4CDF4266B585B0021B0C4 /* ShopListPresenterTest.swift in Sources */,
+				11B35EDB266AC8E900986345 /* HomeViewControllerTest.swift in Sources */,
+				11E4CDEC266B4CB90021B0C4 /* ShopListInteractorTest.swift in Sources */,
+				11E4CDD8266B416E0021B0C4 /* HomeIntercatorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1486,9 +1530,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PaybackAssessmentTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1508,9 +1553,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PaybackAssessmentTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1655,9 +1701,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PaybackAssessmentTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1781,9 +1828,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PaybackAssessmentTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1907,9 +1955,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PaybackAssessmentTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2033,9 +2082,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PaybackAssessmentTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
