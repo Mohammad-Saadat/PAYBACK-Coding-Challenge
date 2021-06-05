@@ -72,7 +72,6 @@ extension HomeRouter: HomeRoutingLogic {
             let dc = ShopListDependencyContainer()
             let vc = dc.makeShopListViewController(tileId: tileId)
             viewController?.present(vc, animated: true, completion: nil)
-            break
         }
     }
 }

@@ -2,7 +2,7 @@
 //  Tile+CoreDataProperties.swift
 //  
 //
-//  Created by mohammadSaadat on 3/14/1400 AP.
+//  Created by mohammadSaadat on 3/15/1400 AP.
 //
 //
 
@@ -18,9 +18,9 @@ extension Tile {
 
     @NSManaged public var data: String?
     @NSManaged public var headline: String?
-    @NSManaged public var id: String?
     @NSManaged public var name: String?
     @NSManaged public var score: Int64
     @NSManaged public var subline: String?
+    @NSManaged public var id: String?
 
 }

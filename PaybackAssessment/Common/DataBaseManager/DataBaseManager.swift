@@ -55,6 +55,7 @@ extension NSManagedObjectContext: TileDataBaseManagerProtocol {
     func insert(remoteTiles: [RemoteTile]) -> Promise<[Tile]> {
         Promise { seal in
             do {
+                deleteAllRecords()
                 let tiles = remoteTiles.map { $0.createTile(in: self) }
                 if self.hasChanges {
                     try self.save()
@@ -95,6 +96,12 @@ extension NSManagedObjectContext: TileDataBaseManagerProtocol {
                 seal.reject(TileStoreError.cannotDelete(""))
             }
         }
+    }
+    
+    func deleteAllRecords() {
+        let deleteFetch: NSFetchRequest<NSFetchRequestResult> = NSFetchRequest<NSFetchRequestResult>(entityName: "Tile")
+        let deleteRequest = NSBatchDeleteRequest(fetchRequest: deleteFetch)
+        _ = try? self.execute(deleteRequest)
     }
 }
 

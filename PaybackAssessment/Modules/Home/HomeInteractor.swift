@@ -37,7 +37,7 @@ class HomeInteractor: HomeDataStore {
 
 // MARK: Private
 private extension HomeInteractor {
-    func refreshPage(tiles: [Tile]) {
+    func showData(tiles: [Tile]) {
         self.presenter?.presentData(response: .init(Tiles: tiles))
     }
     
@@ -59,14 +59,14 @@ extension HomeInteractor: HomeBusinessLogic {
     func fetchData() {
         presenter?.showLoading()
         worker?.getTails(params: TailParams())
-            .done(refreshPage)
+            .done(showData)
             .catch(presentError)
             .finally(hideLoadings)
     }
     
     func refreshPage() {
         worker?.refreshTails(params: TailParams())
-            .done(refreshPage)
+            .done(showData)
             .catch(presentError)
             .finally(hideLoadings)
     }

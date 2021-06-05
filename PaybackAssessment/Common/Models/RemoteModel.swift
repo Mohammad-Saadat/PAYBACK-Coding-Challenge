@@ -26,7 +26,10 @@ extension RemoteTile {
     func createTile(in context: NSManagedObjectContext) -> Tile {
         let tile = Tile(context: context)
         tile.name = self.name?.rawValue
-        tile.data = self.data
+        if let name = self.name, case .shoppingList = name {
+        } else {
+            tile.data = self.data
+        }
         tile.headline = self.headline
         tile.subline = self.subline
         tile.score = Int64(self.score)
